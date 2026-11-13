@@ -1,0 +1,60 @@
+   # Ежедневный выпуск: 3 новости (Общество, Технологии, Культура) с никудом и голосом.
+   name: Daily news
+
+   on:
+     schedule:
+       - cron: "30 3 * * *"   # 05:30 по Израилю зимой
+     workflow_dispatch:
+       inputs:
+         force:
+           description: "Пересоздать сегодняшний выпуск"
+           type: boolean
+           default: false
+
+   permissions:
+     contents: write
+
+   concurrency:
+     group: daily-news
+     cancel-in-progress: false
+
+   jobs:
+     news:
+       runs-on: ubuntu-latest
+       timeout-minutes: 45
+       steps:
+         - uses: actions/checkout@v4
+
+         - uses: actions/setup-python@v5
+           with:
+             python-version: "3.12"
+             cache: pip
+             cache-dependency-path: requirements.txt
+
+         - uses: actions/cache@v4
+           with:
+             path: ~/.cache/huggingface
+             key: hf-dictabert-menaked-v1
+
+         - name: Install
+           run: |
+             pip install --index-url https://download.pytorch.org/whl/cpu torch
+             pip install -r requirements.txt
+
+         - name: Tests
+           run: cd news && python -m unittest -q test_pipeline
+
+         - name: Make today's issue
+           env:
+             GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+             GOOGLE_TTS_API_KEY: ${{ secrets.GOOGLE_TTS_API_KEY }}
+           run: python news/pipeline.py ${{ inputs.force && '--force' || '' }}
+
+         - name: Publish
+           run: |
+             git config user.name "news-bot"
+             git config user.email "news-bot@users.noreply.github.com"
+             git add -A feed audio || true
+             if git diff --cached --quiet; then echo "Нет изменений"; exit 0; fi
+             git commit -m "Выпуск $(date -u +%F)"
+             git push
