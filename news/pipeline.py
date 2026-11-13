@@ -32,6 +32,7 @@ import os
 import re
 import shutil
 import sys
+import urllib.error
 import urllib.parse
 import urllib.request
 import xml.etree.ElementTree as ET
@@ -47,7 +48,8 @@ KEEP_DAYS = 7          # в latest.json — последние 7 дней
 AUDIO_KEEP_DAYS = 30   # MP3 старше месяца удаляются, чтобы репозиторий не рос бесконечно
 UA = "HebrewLearningNews/1.0 (personal learning app; github actions)"
 
-GEMINI_MODEL = os.environ.get("GEMINI_MODEL", "gemini-2.5-flash")
+# Модель Gemini: можно задать переменной GEMINI_MODEL; иначе берём самую новую доступную «flash».
+GEMINI_MODEL = os.environ.get("GEMINI_MODEL", "")
 VOICE = "he-IL-Chirp3-HD-Iapetus"
 
 # Темы: (ключ, русское название, раздел Google Новостей)
@@ -56,6 +58,8 @@ CATEGORIES = [
     ("tech", "Технологии", "TECHNOLOGY"),
     ("culture", "Культура", "ENTERTAINMENT"),
 ]
+# Запасной поиск, если раздел Google Новостей недоступен.
+SEARCH = {"NATION": "ישראל חברה", "TECHNOLOGY": "טכנולוגיה", "ENTERTAINMENT": "תרבות"}
 
 LEVELS = {
     1: dict(name="алеф", cefr="A1–A2", spec=(
@@ -86,16 +90,37 @@ def http(url: str, body: dict | None = None, timeout: int = 60, headers: dict | 
         h["Content-Type"] = "application/json; charset=utf-8"
     h.update(headers or {})
     req = urllib.request.Request(url, data=data, headers=h)
-    with urllib.request.urlopen(req, timeout=timeout) as r:
-        return r.read()
+    try:
+        with urllib.request.urlopen(req, timeout=timeout) as r:
+            return r.read()
+    except urllib.error.HTTPError as e:
+        # В журнал — адрес без ключа и начало ответа сервера, чтобы было понятно, что сломалось.
+        safe = re.sub(r"key=[^&]+", "key=***", url)
+        detail = e.read().decode("utf-8", "replace")[:300].replace("\n", " ")
+        raise RuntimeError(f"HTTP {e.code} {safe} — {detail}") from None
 
 
 # ---------------------------------------------------------------- 1. факты (только заголовки)
 
 def headlines(topic: str, limit: int = 12) -> list[dict]:
     """Заголовки Google Новостей (Израиль, иврит) по разделу. Это факты, тексты статей не берём."""
-    url = f"https://news.google.com/rss/headlines/section/topic/{topic}?hl=he&gl=IL&ceid=IL:he"
-    return parse_rss(http(url).decode("utf-8"), limit)
+    urls = [
+        f"https://news.google.com/rss/headlines/section/topic/{topic}?hl=he&gl=IL&ceid=IL:he",
+        "https://news.google.com/rss/search?" + urllib.parse.urlencode(
+            {"q": SEARCH[topic] + " when:1d", "hl": "he", "gl": "IL", "ceid": "IL:he"}),
+    ]
+    last: Exception | None = None
+    for url in urls:
+        try:
+            items = parse_rss(http(url).decode("utf-8"), limit)
+            if items:
+                return items
+        except Exception as e:
+            last = e
+            print(f"  заголовки: {e}", flush=True)
+    if last:
+        raise last
+    return []
 
 
 def parse_rss(xml_text: str, limit: int = 12) -> list[dict]:
@@ -175,8 +200,36 @@ Topic: {category_ru}. Today's Israeli headlines (facts only):
 """
 
 
+_model_cache: list[str] = []
+
+
+def pick_model(api_key: str) -> str:
+    """Самая новая модель «flash», которая умеет generateContent (имена моделей Google со временем меняются)."""
+    if GEMINI_MODEL:
+        return GEMINI_MODEL
+    if _model_cache:
+        return _model_cache[0]
+    data = json.loads(http(f"https://generativelanguage.googleapis.com/v1beta/models?pageSize=200&key={api_key}"))
+    names = [
+        m["name"].removeprefix("models/") for m in data.get("models", [])
+        if "generateContent" in m.get("supportedGenerationMethods", [])
+        and "flash" in m["name"] and not any(x in m["name"] for x in ("lite", "image", "tts", "audio", "live", "thinking", "exp"))
+    ]
+    if not names:
+        raise RuntimeError("Gemini: не найдено ни одной модели flash — проверьте, что ключ от Google AI Studio")
+
+    def version(n: str) -> tuple:
+        nums = re.findall(r"\d+(?:\.\d+)?", n)
+        return ("preview" not in n, float(nums[0]) if nums else 0.0, n)  # сначала стабильные, потом новее
+
+    best = max(names, key=version)
+    print(f"Модель Gemini: {best}", flush=True)
+    _model_cache.append(best)
+    return best
+
+
 def gemini(api_key: str, prompt: str, schema: dict) -> dict:
-    url = f"https://generativelanguage.googleapis.com/v1beta/models/{GEMINI_MODEL}:generateContent?key={api_key}"
+    url = f"https://generativelanguage.googleapis.com/v1beta/models/{pick_model(api_key)}:generateContent?key={api_key}"
     body = {
         "contents": [{"role": "user", "parts": [{"text": prompt}]}],
         "generationConfig": {
