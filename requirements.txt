@@ -1,0 +1,2 @@
+# torch ставится отдельно (CPU-сборка) — см. .github/workflows/daily.yml
+transformers>=4.40,<5
