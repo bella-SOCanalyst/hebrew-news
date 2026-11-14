@@ -32,6 +32,7 @@ import os
 import re
 import shutil
 import sys
+import time
 import urllib.error
 import urllib.parse
 import urllib.request
@@ -203,33 +204,36 @@ Topic: {category_ru}. Today's Israeli headlines (facts only):
 _model_cache: list[str] = []
 
 
-def pick_model(api_key: str) -> str:
-    """Самая новая модель «flash», которая умеет generateContent (имена моделей Google со временем меняются)."""
+def pick_models(api_key: str) -> list[str]:
+    """Модели «flash» от лучшей к запасным (имена моделей Google со временем меняются)."""
     if GEMINI_MODEL:
-        return GEMINI_MODEL
+        return [GEMINI_MODEL]
     if _model_cache:
-        return _model_cache[0]
+        return _model_cache
     data = json.loads(http(f"https://generativelanguage.googleapis.com/v1beta/models?pageSize=200&key={api_key}"))
     names = [
         m["name"].removeprefix("models/") for m in data.get("models", [])
         if "generateContent" in m.get("supportedGenerationMethods", [])
-        and "flash" in m["name"] and not any(x in m["name"] for x in ("lite", "image", "tts", "audio", "live", "thinking", "exp"))
+        and "flash" in m["name"] and not any(x in m["name"] for x in ("image", "tts", "audio", "live", "thinking", "exp"))
     ]
     if not names:
         raise RuntimeError("Gemini: не найдено ни одной модели flash — проверьте, что ключ от Google AI Studio")
 
-    def version(n: str) -> tuple:
+    def rank(n: str) -> tuple:
         nums = re.findall(r"\d+(?:\.\d+)?", n)
-        return ("preview" not in n, float(nums[0]) if nums else 0.0, n)  # сначала стабильные, потом новее
+        # сначала стабильные, затем новее; «lite» — только как запасная
+        return ("preview" not in n, "lite" not in n, float(nums[0]) if nums else 0.0, n)
 
-    best = max(names, key=version)
-    print(f"Модель Gemini: {best}", flush=True)
-    _model_cache.append(best)
-    return best
+    _model_cache.extend(sorted(names, key=rank, reverse=True)[:4])
+    print("Модели Gemini (по порядку): " + ", ".join(_model_cache), flush=True)
+    return _model_cache
+
+
+RETRYABLE = ("HTTP 429", "HTTP 500", "HTTP 503", "HTTP 504", "timed out", "Connection reset", "Remote end closed")
 
 
 def gemini(api_key: str, prompt: str, schema: dict) -> dict:
-    url = f"https://generativelanguage.googleapis.com/v1beta/models/{pick_model(api_key)}:generateContent?key={api_key}"
+    """Запрос к Gemini с повторами: при перегрузке (503/429) и таймауте ждём и пробуем снова, затем — запасную модель."""
     body = {
         "contents": [{"role": "user", "parts": [{"text": prompt}]}],
         "generationConfig": {
@@ -238,9 +242,24 @@ def gemini(api_key: str, prompt: str, schema: dict) -> dict:
             "responseSchema": schema,
         },
     }
-    resp = json.loads(http(url, body, timeout=180))
-    text = resp["candidates"][0]["content"]["parts"][0]["text"]
-    return json.loads(text)
+    last: Exception | None = None
+    for model in pick_models(api_key):
+        url = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent?key={api_key}"
+        for attempt in range(3):
+            try:
+                resp = json.loads(http(url, body, timeout=300))
+                text = resp["candidates"][0]["content"]["parts"][0]["text"]
+                return json.loads(text)
+            except Exception as e:  # noqa: BLE001
+                last = e
+                msg = str(e)
+                if not any(r in msg for r in RETRYABLE):
+                    break  # ошибка не временная — сразу следующая модель
+                wait = 20 * (attempt + 1)
+                print(f"  {model}: {msg[:120]} — повтор через {wait} с", flush=True)
+                time.sleep(wait)
+        print(f"  {model} не ответила, пробую запасную модель", flush=True)
+    raise last or RuntimeError("Gemini не ответил")
 
 
 def clean_hebrew(s: str) -> str:
