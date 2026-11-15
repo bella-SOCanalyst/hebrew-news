@@ -1,7 +1,1608 @@
 {
  "format": 1,
- "generated": "2026-11-14T00:56:39+00:00",
+ "generated": "2026-11-15T03:48:31+00:00",
  "items": [
+  {
+   "id": "2026-11-15-society",
+   "date": "2026-11-15",
+   "category": "Общество",
+   "level": 1,
+   "cefr": "A1–A2",
+   "title_ru": "Особый шатёр напротив Кнессета",
+   "title_plain": "אוהל מיוחד מול הכנסת",
+   "sentences": [
+    {
+     "plain": "חבר כנסת מקים אוהל מיוחד בירושלים.",
+     "ru": "Депутат Кнессета ставит особый шатёр в Иерусалиме.",
+     "he": "חֲבֵר כְּנֶסֶת מֵקִים אֹוהֶל מְיֻוחָד בִּירוּשָׁלַיִם.",
+     "audio": "audio/2026-11-15/5bbaa2b1b98d92a7.mp3"
+    },
+    {
+     "plain": "האוהל עומד מול בניין הכנסת.",
+     "ru": "Шатёр стоит напротив здания Кнессета.",
+     "he": "הָאֹוהֶל עוֹמֵד מוּל בִּנְיַין הַכְּנֶסֶת.",
+     "audio": "audio/2026-11-15/7ce93b73fce19675.mp3"
+    },
+    {
+     "plain": "חבר הכנסת מזמין אנשים אל האוהל.",
+     "ru": "Депутат Кнессета приглашает людей в этот шатёр.",
+     "he": "חֲבֵר הַכְּנֶסֶת מַזְמִין אֲנָשִׁים אֶל הָאֹוהֶל.",
+     "audio": "audio/2026-11-15/fcc3e37eacedb6ce.mp3"
+    },
+    {
+     "plain": "הוא מדבר עם אנשים על אחדות.",
+     "ru": "Он говорит с людьми о единстве.",
+     "he": "הוּא מְדַבֵּר עִם אֲנָשִׁים עַל אַחְדוּת.",
+     "audio": "audio/2026-11-15/34d2eefca7a01e90.mp3"
+    },
+    {
+     "plain": "האוהל פתוח לכולם בכל יום.",
+     "ru": "Шатёр открыт для всех каждый день.",
+     "he": "הָאֹוהֶל פָּתוּחַ לְכֻולָּם בְּכׇל יוֹם.",
+     "audio": "audio/2026-11-15/122ee50ca2fb0076.mp3"
+    }
+   ],
+   "glossary": [
+    {
+     "form": "חבר",
+     "lemma": "חבר",
+     "pos": "NOUN",
+     "ru": "член, друг",
+     "root": "ח-ב-ר",
+     "binyan": "NONE",
+     "lemma_nikud": "חָבֵר",
+     "form_nikud": "חֲבֵר"
+    },
+    {
+     "form": "כנסת",
+     "lemma": "כנסת",
+     "pos": "NOUN",
+     "ru": "Кнессет (парламент)",
+     "root": "כ-נ-ס",
+     "binyan": "NONE",
+     "lemma_nikud": "כְּנֶסֶת",
+     "form_nikud": "כְּנֶסֶת"
+    },
+    {
+     "form": "מקים",
+     "lemma": "להקים",
+     "pos": "VERB",
+     "ru": "ставить, устанавливать",
+     "root": "ק-ו-ם",
+     "binyan": "HIFIL",
+     "lemma_nikud": "לְהָקִים",
+     "form_nikud": "מֵקִים"
+    },
+    {
+     "form": "אוהל",
+     "lemma": "אוהל",
+     "pos": "NOUN",
+     "ru": "шатёр, палатка",
+     "root": "א-ה-ל",
+     "binyan": "NONE",
+     "lemma_nikud": "אֹוהֶל",
+     "form_nikud": "אֹוהֶל"
+    },
+    {
+     "form": "מיוחד",
+     "lemma": "מיוחד",
+     "pos": "ADJECTIVE",
+     "ru": "особенный, специальный",
+     "root": "י-ח-ד",
+     "binyan": "NONE",
+     "lemma_nikud": "מְיֻוחָד",
+     "form_nikud": "מְיֻוחָד"
+    },
+    {
+     "form": "עומד",
+     "lemma": "לעמוד",
+     "pos": "VERB",
+     "ru": "стоять",
+     "root": "ע-מ-ד",
+     "binyan": "PAAL",
+     "lemma_nikud": "לַעֲמֹוד",
+     "form_nikud": "עוֹמֵד"
+    },
+    {
+     "form": "בניין",
+     "lemma": "בניין",
+     "pos": "NOUN",
+     "ru": "здание",
+     "root": "ב-נ-י",
+     "binyan": "NONE",
+     "lemma_nikud": "בִּנְיָין",
+     "form_nikud": "בִּנְיַין"
+    },
+    {
+     "form": "מזמין",
+     "lemma": "להזמין",
+     "pos": "VERB",
+     "ru": "приглашать",
+     "root": "ז-מ-ן",
+     "binyan": "HIFIL",
+     "lemma_nikud": "לְהַזְמִין",
+     "form_nikud": "מַזְמִין"
+    },
+    {
+     "form": "אנשים",
+     "lemma": "איש",
+     "pos": "NOUN",
+     "ru": "люди",
+     "root": "א-נ-ש",
+     "binyan": "NONE",
+     "lemma_nikud": "אִישׁ",
+     "form_nikud": "אֲנָשִׁים"
+    },
+    {
+     "form": "מדבר",
+     "lemma": "לדבר",
+     "pos": "VERB",
+     "ru": "разговаривать",
+     "root": "ד-ב-ר",
+     "binyan": "PIEL",
+     "lemma_nikud": "לְדַבֵּר",
+     "form_nikud": "מְדַבֵּר"
+    },
+    {
+     "form": "אחדות",
+     "lemma": "אחדות",
+     "pos": "NOUN",
+     "ru": "единство",
+     "root": "א-ח-ד",
+     "binyan": "NONE",
+     "lemma_nikud": "אַחְדוּת",
+     "form_nikud": "אַחְדוּת"
+    },
+    {
+     "form": "פתוח",
+     "lemma": "פתוח",
+     "pos": "ADJECTIVE",
+     "ru": "открытый",
+     "root": "פ-ת-ח",
+     "binyan": "NONE",
+     "lemma_nikud": "פָּתוּחַ",
+     "form_nikud": "פָּתוּחַ"
+    },
+    {
+     "form": "יום",
+     "lemma": "יום",
+     "pos": "NOUN",
+     "ru": "день",
+     "root": "י-ו-ם",
+     "binyan": "NONE",
+     "lemma_nikud": "יוֹם",
+     "form_nikud": "יוֹם"
+    }
+   ],
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Produce_Tent_at_Get_Outdoors_event_%2808ec9481-e00c-64c9-6ab6-9ee0d0ddd943%29.jpg/960px-Produce_Tent_at_Get_Outdoors_event_%2808ec9481-e00c-64c9-6ab6-9ee0d0ddd943%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "author": "NPS",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Produce_Tent_at_Get_Outdoors_event_(08ec9481-e00c-64c9-6ab6-9ee0d0ddd943).jpg"
+   },
+   "sources": [
+    {
+     "title": "ח\"כ אלישע מדן הקים \"אוהל אחדות\" מול הכנסת: \"אשב בו בקור ובגשם, פתוח לכולם\"",
+     "outlet": "YNET",
+     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1uUmVEWWZnS1IyZGpUMktOZFBtM0Nma3ZMLVItR29XLUE4alFmWUNYaThiS0luSTlOX0JLVzk5dTRoVlZOU0Q3QWNZZU5uOUsyRzR2RG5PZVNoTGs?oc=5"
+    }
+   ],
+   "title_he": "אֹוהֶל מְיֻוחָד מוּל הַכְּנֶסֶת"
+  },
+  {
+   "id": "2026-11-15-tech",
+   "date": "2026-11-15",
+   "category": "Технологии",
+   "level": 2,
+   "cefr": "A2–B1",
+   "title_ru": "Samsung и Google представляют новые очки с искусственным интеллектом",
+   "title_plain": "סמסונג וגוגל מציגות משקפי בינה מלאכותית חדשים",
+   "sentences": [
+    {
+     "plain": "חברות הטכנולוגיה סמסונג וגוגל מציגות משקפיים חכמים חדשים.",
+     "ru": "Технологические компании Samsung и Google представляют новые умные очки.",
+     "he": "חֶבְרוֹת הַטֶּכְנוֹלוֹגְיָה סַמְסוּנְג וְגוּגֶל מַצִּיגוֹת מִשְׁקָפַיִים חֲכָמִים חֲדָשִׁים.",
+     "audio": "audio/2026-11-15/14036fbb8260128c.mp3"
+    },
+    {
+     "plain": "המשקפיים האלה עובדים בעזרת בינה מלאכותית של גוגל.",
+     "ru": "Эти очки работают с помощью искусственного интеллекта от Google.",
+     "he": "הַמִּשְׁקָפַיִים הָאֵלֶּה עוֹבְדִים בְּעֶזְרַת בִּינָה מְלָאכוּתִית שֶׁל גּוּגֶל.",
+     "audio": "audio/2026-11-15/215fbc6f1b7854ee.mp3"
+    },
+    {
+     "plain": "המכשיר החדש מאפשר למשתמשים לקבל מידע במהירות רבה.",
+     "ru": "Новое устройство позволяет пользователям получать информацию очень быстро.",
+     "he": "הַמַּכְשִׁיר הֶחָדָשׁ מְאַפְשֵׁר לַמִּשְׁתַּמְּשִׁים לְקַבֵּל מֵידָע בִּמְהִירוּת רַבָּה.",
+     "audio": "audio/2026-11-15/88598874a07d2ccd.mp3"
+    },
+    {
+     "plain": "אנשים יכולים לשאול שאלות ולראות תשובות מול העיניים שלהם.",
+     "ru": "Люди могут задавать вопросы и видеть ответы перед своими глазами.",
+     "he": "אֲנָשִׁים יְכוֹלִים לִשְׁאֹול שְׁאֵלוֹת וְלִרְאוֹת תְּשׁוּבוֹת מוּל הָעֵינַיִים שֶׁלָּהֶם.",
+     "audio": "audio/2026-11-15/771638b043193ef4.mp3"
+    },
+    {
+     "plain": "החברות מסבירות שהמוצר הזה יכול לעזור בעבודה ובחיי היום-יום.",
+     "ru": "Компании объясняют, что этот продукт может помочь в работе и повседневной жизни.",
+     "he": "הַחֲבָרוֹת מַסְבִּירוֹת שֶׁהַמּוּצָר הַזֶּה יָכוֹל לַעֲזֹור בָּעֲבוֹדָה וּבְחַיֵּי הַיּוֹם-יוֹם.",
+     "audio": "audio/2026-11-15/871b6347ac81059d.mp3"
+    },
+    {
+     "plain": "המחיר של המשקפיים מתחיל משלוש מאות תשעים וחמישה דולר.",
+     "ru": "Цена очков начинается от трехсот девяноста пяти долларов.",
+     "he": "הַמְּחִיר שֶׁל הַמִּשְׁקָפַיִים מַתְחִיל מִשְּׁלוֹשׁ מֵאוֹת תִּשְׁעִים וַחֲמִישָּׁה דּוֹלָר.",
+     "audio": "audio/2026-11-15/88df3cc1532e5bb6.mp3"
+    },
+    {
+     "plain": "המכירה של המשקפיים תתחיל בחנויות ברחבי העולם בקרוב מאוד.",
+     "ru": "Продажа очков начнется в магазинах по всему миру очень скоро.",
+     "he": "הַמְּכִירָה שֶׁל הַמִּשְׁקָפַיִים תַּתְחִיל בַּחֲנוּיוֹת בְּרַחֲבֵי הָעוֹלָם בְּקָרוֹב מְאוֹד.",
+     "audio": "audio/2026-11-15/2e78acd698e6e420.mp3"
+    }
+   ],
+   "glossary": [
+    {
+     "form": "חברות",
+     "lemma": "חברה",
+     "pos": "NOUN",
+     "ru": "компания, фирма",
+     "root": "ח-ב-ר",
+     "binyan": "NONE",
+     "lemma_nikud": "חֶבְרָה",
+     "form_nikud": "חֶבְרוֹת"
+    },
+    {
+     "form": "טכנולוגיה",
+     "lemma": "טכנולוגיה",
+     "pos": "NOUN",
+     "ru": "технология",
+     "root": "",
+     "binyan": "NONE",
+     "lemma_nikud": "טֶכְנוֹלוֹגְיָה",
+     "form_nikud": ""
+    },
+    {
+     "form": "סמסונג",
+     "lemma": "סמסונג",
+     "pos": "PROPER_NOUN",
+     "ru": "Самсунг",
+     "root": "",
+     "binyan": "NONE",
+     "lemma_nikud": "סַמְסוֹנְג",
+     "form_nikud": "סַמְסוּנְג"
+    },
+    {
+     "form": "גוגל",
+     "lemma": "גוגל",
+     "pos": "PROPER_NOUN",
+     "ru": "Гугл",
+     "root": "",
+     "binyan": "NONE",
+     "lemma_nikud": "גּוּגֶל",
+     "form_nikud": "גּוּגֶל"
+    },
+    {
+     "form": "מציגות",
+     "lemma": "להציג",
+     "pos": "VERB",
+     "ru": "показывать, представлять",
+     "root": "י-צ-ג",
+     "binyan": "HIFIL",
+     "lemma_nikud": "לְהַצִּיג",
+     "form_nikud": "מַצִּיגוֹת"
+    },
+    {
+     "form": "משקפיים",
+     "lemma": "משקפיים",
+     "pos": "NOUN",
+     "ru": "очки",
+     "root": "ש-ק-ף",
+     "binyan": "NONE",
+     "lemma_nikud": "מִשְׁקָפַיִים",
+     "form_nikud": "מִשְׁקָפַיִים"
+    },
+    {
+     "form": "חכמים",
+     "lemma": "חכם",
+     "pos": "ADJECTIVE",
+     "ru": "умный",
+     "root": "ח-כ-ם",
+     "binyan": "NONE",
+     "lemma_nikud": "חָכָם",
+     "form_nikud": "חֲכָמִים"
+    },
+    {
+     "form": "חדשים",
+     "lemma": "חדש",
+     "pos": "ADJECTIVE",
+     "ru": "новый",
+     "root": "ח-ד-ש",
+     "binyan": "NONE",
+     "lemma_nikud": "חָדָשׁ",
+     "form_nikud": "חֲדָשִׁים"
+    },
+    {
+     "form": "אלה",
+     "lemma": "אלה",
+     "pos": "PRONOUN",
+     "ru": "эти",
+     "root": "",
+     "binyan": "NONE",
+     "lemma_nikud": "אֵלֶּה",
+     "form_nikud": ""
+    },
+    {
+     "form": "עובדים",
+     "lemma": "לעבוד",
+     "pos": "VERB",
+     "ru": "работать",
+     "root": "ע-ב-ד",
+     "binyan": "PAAL",
+     "lemma_nikud": "לַעֲבֹוד",
+     "form_nikud": "עוֹבְדִים"
+    },
+    {
+     "form": "עזרת",
+     "lemma": "עזרה",
+     "pos": "NOUN",
+     "ru": "помощь",
+     "root": "ע-ז-ר",
+     "binyan": "NONE",
+     "lemma_nikud": "עֶזְרָה",
+     "form_nikud": ""
+    },
+    {
+     "form": "בינה מלאכותית",
+     "lemma": "בינה מלאכותית",
+     "pos": "PHRASE",
+     "ru": "искусственный интеллект",
+     "root": "",
+     "binyan": "NONE",
+     "lemma_nikud": "בִּינָה מְלָאכוּתִית",
+     "form_nikud": ""
+    },
+    {
+     "form": "מכשיר",
+     "lemma": "מכשיר",
+     "pos": "NOUN",
+     "ru": "устройство, прибор",
+     "root": "כ-ש-ר",
+     "binyan": "NONE",
+     "lemma_nikud": "מַכְשִׁיר",
+     "form_nikud": ""
+    },
+    {
+     "form": "מאפשר",
+     "lemma": "לאפשר",
+     "pos": "VERB",
+     "ru": "позволять, давать возможность",
+     "root": "א-פ-ש-ר",
+     "binyan": "PIEL",
+     "lemma_nikud": "לְאַפְשֵׁר",
+     "form_nikud": "מְאַפְשֵׁר"
+    },
+    {
+     "form": "משתמשים",
+     "lemma": "משתמש",
+     "pos": "NOUN",
+     "ru": "пользователь",
+     "root": "ש-מ-ש",
+     "binyan": "NONE",
+     "lemma_nikud": "מִשְׁתַּמֵּשׁ",
+     "form_nikud": ""
+    },
+    {
+     "form": "לקבל",
+     "lemma": "לקבל",
+     "pos": "VERB",
+     "ru": "получать",
+     "root": "ק-ב-ל",
+     "binyan": "PIEL",
+     "lemma_nikud": "לְקַבֵּל",
+     "form_nikud": "לְקַבֵּל"
+    },
+    {
+     "form": "מידע",
+     "lemma": "מידע",
+     "pos": "NOUN",
+     "ru": "информация",
+     "root": "י-ד-ע",
+     "binyan": "NONE",
+     "lemma_nikud": "מֵידָע",
+     "form_nikud": "מֵידָע"
+    },
+    {
+     "form": "מהירות",
+     "lemma": "מהירות",
+     "pos": "NOUN",
+     "ru": "скорость",
+     "root": "מ-ה-ר",
+     "binyan": "NONE",
+     "lemma_nikud": "מְהִירוּת",
+     "form_nikud": ""
+    },
+    {
+     "form": "רבה",
+     "lemma": "רב",
+     "pos": "ADJECTIVE",
+     "ru": "большой, многочисленный",
+     "root": "ר-ב-ב",
+     "binyan": "NONE",
+     "lemma_nikud": "רַב",
+     "form_nikud": "רַבָּה"
+    },
+    {
+     "form": "אנשים",
+     "lemma": "איש",
+     "pos": "NOUN",
+     "ru": "человек, люди",
+     "root": "א-נ-ש",
+     "binyan": "NONE",
+     "lemma_nikud": "אִישׁ",
+     "form_nikud": "אֲנָשִׁים"
+    },
+    {
+     "form": "יכולים",
+     "lemma": "יכול",
+     "pos": "ADJECTIVE",
+     "ru": "могущий, способный",
+     "root": "י-כ-ל",
+     "binyan": "NONE",
+     "lemma_nikud": "יָכֹוֹל",
+     "form_nikud": "יְכוֹלִים"
+    },
+    {
+     "form": "לשאול",
+     "lemma": "לשאול",
+     "pos": "VERB",
+     "ru": "спрашивать",
+     "root": "ש-א-ל",
+     "binyan": "PAAL",
+     "lemma_nikud": "לִשְׁאֹול",
+     "form_nikud": "לִשְׁאֹול"
+    },
+    {
+     "form": "שאלות",
+     "lemma": "שאלה",
+     "pos": "NOUN",
+     "ru": "вопрос",
+     "root": "ש-א-ל",
+     "binyan": "NONE",
+     "lemma_nikud": "שְׁאֵלָה",
+     "form_nikud": "שְׁאֵלוֹת"
+    },
+    {
+     "form": "לראות",
+     "lemma": "לראות",
+     "pos": "VERB",
+     "ru": "видеть",
+     "root": "ר-א-ה",
+     "binyan": "PAAL",
+     "lemma_nikud": "לִרְאוֹת",
+     "form_nikud": ""
+    },
+    {
+     "form": "תשובות",
+     "lemma": "תשובה",
+     "pos": "NOUN",
+     "ru": "ответ",
+     "root": "ש-ו-ב",
+     "binyan": "NONE",
+     "lemma_nikud": "תְּשׁוּבָה",
+     "form_nikud": "תְּשׁוּבוֹת"
+    },
+    {
+     "form": "מול",
+     "lemma": "מול",
+     "pos": "PREPOSITION",
+     "ru": "напротив, перед",
+     "root": "",
+     "binyan": "NONE",
+     "lemma_nikud": "מוּל",
+     "form_nikud": "מוּל"
+    },
+    {
+     "form": "עיניים",
+     "lemma": "עין",
+     "pos": "NOUN",
+     "ru": "глаз",
+     "root": "ע-י-ן",
+     "binyan": "NONE",
+     "lemma_nikud": "עַיִן",
+     "form_nikud": ""
+    },
+    {
+     "form": "שלהם",
+     "lemma": "שלהם",
+     "pos": "PRONOUN",
+     "ru": "их",
+     "root": "",
+     "binyan": "NONE",
+     "lemma_nikud": "שֶׁלָּהֶם",
+     "form_nikud": "שֶׁלָּהֶם"
+    },
+    {
+     "form": "מסבירות",
+     "lemma": "להסביר",
+     "pos": "VERB",
+     "ru": "объяснять",
+     "root": "ס-ב-ר",
+     "binyan": "HIFIL",
+     "lemma_nikud": "לְהַסְבִּיר",
+     "form_nikud": "מַסְבִּירוֹת"
+    },
+    {
+     "form": "מוצר",
+     "lemma": "מוצר",
+     "pos": "NOUN",
+     "ru": "продукт, изделие",
+     "root": "י-צ-ר",
+     "binyan": "NONE",
+     "lemma_nikud": "מוּצָר",
+     "form_nikud": ""
+    },
+    {
+     "form": "זה",
+     "lemma": "זה",
+     "pos": "PRONOUN",
+     "ru": "этот",
+     "root": "",
+     "binyan": "NONE",
+     "lemma_nikud": "זֶה",
+     "form_nikud": ""
+    },
+    {
+     "form": "לעזור",
+     "lemma": "לעזור",
+     "pos": "VERB",
+     "ru": "помогать",
+     "root": "ע-ז-ר",
+     "binyan": "PAAL",
+     "lemma_nikud": "לַעֲזֹור",
+     "form_nikud": "לַעֲזֹור"
+    },
+    {
+     "form": "עבודה",
+     "lemma": "עבודה",
+     "pos": "NOUN",
+     "ru": "работа",
+     "root": "ע-ב-ד",
+     "binyan": "NONE",
+     "lemma_nikud": "עֲבוֹדָה",
+     "form_nikud": ""
+    },
+    {
+     "form": "חיי",
+     "lemma": "חיים",
+     "pos": "NOUN",
+     "ru": "жизнь",
+     "root": "ח-י-ה",
+     "binyan": "NONE",
+     "lemma_nikud": "חַיִּים",
+     "form_nikud": ""
+    },
+    {
+     "form": "יום-יום",
+     "lemma": "יום-יום",
+     "pos": "NOUN",
+     "ru": "повседневность, будни",
+     "root": "י-ו-ם",
+     "binyan": "NONE",
+     "lemma_nikud": "יוֹם-יוֹם",
+     "form_nikud": ""
+    },
+    {
+     "form": "מחיר",
+     "lemma": "מחיר",
+     "pos": "NOUN",
+     "ru": "цена",
+     "root": "מ-ח-ר",
+     "binyan": "NONE",
+     "lemma_nikud": "מְחִיר",
+     "form_nikud": ""
+    },
+    {
+     "form": "מתחיל",
+     "lemma": "להתחיל",
+     "pos": "VERB",
+     "ru": "начинать(ся)",
+     "root": "ת-ח-ל",
+     "binyan": "HIFIL",
+     "lemma_nikud": "לְהַתְחִיל",
+     "form_nikud": "מַתְחִיל"
+    },
+    {
+     "form": "שלוש",
+     "lemma": "שלוש",
+     "pos": "NUMERAL",
+     "ru": "три",
+     "root": "ש-ל-ש",
+     "binyan": "NONE",
+     "lemma_nikud": "שָׁלוֹשׁ",
+     "form_nikud": ""
+    },
+    {
+     "form": "מאות",
+     "lemma": "מאה",
+     "pos": "NUMERAL",
+     "ru": "сто",
+     "root": "מ-א-ה",
+     "binyan": "NONE",
+     "lemma_nikud": "מֵאָה",
+     "form_nikud": "מֵאוֹת"
+    },
+    {
+     "form": "תשעים",
+     "lemma": "תשעים",
+     "pos": "NUMERAL",
+     "ru": "девяносто",
+     "root": "ת-ש-ע",
+     "binyan": "NONE",
+     "lemma_nikud": "תִּשְׁעִים",
+     "form_nikud": "תִּשְׁעִים"
+    },
+    {
+     "form": "חמישה",
+     "lemma": "חמישה",
+     "pos": "NUMERAL",
+     "ru": "пять",
+     "root": "ח-מ-ש",
+     "binyan": "NONE",
+     "lemma_nikud": "חֲמִישָּׁה",
+     "form_nikud": ""
+    },
+    {
+     "form": "דולר",
+     "lemma": "דולר",
+     "pos": "NOUN",
+     "ru": "доллар",
+     "root": "",
+     "binyan": "NONE",
+     "lemma_nikud": "דּוֹלָר",
+     "form_nikud": "דּוֹלָר"
+    },
+    {
+     "form": "מכירה",
+     "lemma": "מכירה",
+     "pos": "NOUN",
+     "ru": "продажа",
+     "root": "מ-כ-ר",
+     "binyan": "NONE",
+     "lemma_nikud": "מְכִירָה",
+     "form_nikud": ""
+    },
+    {
+     "form": "חנויות",
+     "lemma": "חנות",
+     "pos": "NOUN",
+     "ru": "магазин",
+     "root": "ח-נ-ה",
+     "binyan": "NONE",
+     "lemma_nikud": "חֲנוּת",
+     "form_nikud": ""
+    },
+    {
+     "form": "רחבי",
+     "lemma": "רחב",
+     "pos": "NOUN",
+     "ru": "просторы, пределы",
+     "root": "ר-ח-ב",
+     "binyan": "NONE",
+     "lemma_nikud": "רָחָב",
+     "form_nikud": ""
+    },
+    {
+     "form": "עולם",
+     "lemma": "עולם",
+     "pos": "NOUN",
+     "ru": "мир",
+     "root": "ע-ל-ם",
+     "binyan": "NONE",
+     "lemma_nikud": "עוֹלָם",
+     "form_nikud": ""
+    },
+    {
+     "form": "קרוב",
+     "lemma": "קרוב",
+     "pos": "ADVERB",
+     "ru": "скоро, близко",
+     "root": "ק-ר-ב",
+     "binyan": "NONE",
+     "lemma_nikud": "קָרוֹב",
+     "form_nikud": ""
+    },
+    {
+     "form": "מאוד",
+     "lemma": "מאוד",
+     "pos": "ADVERB",
+     "ru": "очень",
+     "root": "",
+     "binyan": "NONE",
+     "lemma_nikud": "מְאוֹד",
+     "form_nikud": "מְאוֹד"
+    }
+   ],
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/ab/VIA_Booth_at_TICC%2C_Computex_2011-Smart_TV_%285811451456%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "author": "VIA Gallery",
+    "license": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:VIA_Booth_at_TICC,_Computex_2011-Smart_TV_(5811451456).jpg"
+   },
+   "sources": [
+    {
+     "title": "סמסונג וגוגל משיקות משקפי AI חכמים עם Gemini, החל מ-395 דולר",
+     "outlet": "TGspot",
+     "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBKVjc5bjFEQnVrV3NJME9tblNmZTU5U0VKTFktNF9FMGp1T0JaM3FyM29iMkhqaENaTE5JUVgzMENnMlM3YVNJc3FoS3dySDBZNG1fRndPYnZaMjF1aDZJR2JDYndoR3BvbjRpa1daM3k2T3Jzd1Z3?oc=5"
+    }
+   ],
+   "title_he": "סַמְסוּנְג וְגוּגֶל מַצִּיגוֹת מִשְׁקְפֵי בִּינָה מְלָאכוּתִית חֲדָשִׁים"
+  },
+  {
+   "id": "2026-11-15-culture",
+   "date": "2026-11-15",
+   "category": "Культура",
+   "level": 3,
+   "cefr": "B1–B2",
+   "title_ru": "Филиппины победили на первом азиатском конкурсе Евровидение",
+   "title_plain": "הפיליפינים ניצחה בתחרות אירוויזיון אסיה הראשונה",
+   "sentences": [
+    {
+     "plain": "תחרות הזמר הבינלאומית \"אירוויזיון אסיה\" התקיימה השנה בפעם הראשונה בהיסטוריה בהשתתפות מדינות רבות.",
+     "ru": "Международный песенный конкурс «Евровидение Азия» состоялся в этом году впервые в истории с участием многих стран.",
+     "he": "תַּחֲרוּת הַזֶּמֶר הַבֵּינְלְאֻומִּית \"אֵירוֹוִיזְיוֹן אַסְיָה\" הִתְקַיְּימָה הַשָּׁנָה בַּפַּעַם הָרִאשׁוֹנָה בַּהִיסְטוֹרְיָה בְּהִשְׁתַּתְּפוּת מְדִינוֹת רַבּוֹת.",
+     "audio": "audio/2026-11-15/d5268eccfc82a069.mp3"
+    },
+    {
+     "plain": "נציגת הפיליפינים הצליחה להרשים את השופטים והקהל וזכתה במקום הראשון בתחרות המוזיקה.",
+     "ru": "Представительница Филиппин сумела впечатлить судей и зрителей и заняла первое место в музыкальном конкурсе.",
+     "he": "נְצִיגַת הַפִילִיפִּינִים הִצְלִיחָה לְהַרְשִׁים אֶת הַשּׁוֹפְטִים וְהַקָּהָל וְזָכְתָה בַּמָּקוֹם הָרִאשׁוֹן בְּתַחֲרוּת הַמּוּזִיקָה.",
+     "audio": "audio/2026-11-15/05f6ee45846e9e89.mp3"
+    },
+    {
+     "plain": "התחרות החדשה נועדה לחבר בין תרבויות שונות ברחבי יבשת אסיה באמצעות שירים והופעות.",
+     "ru": "Новый конкурс был призван объединить различные культуры на азиатском континенте с помощью песен и выступлений.",
+     "he": "הַתַּחֲרוּת הַחֲדָשָׁה נוֹעֲדָה לְחַבֵּר בֵּין תַּרְבּוּיוֹת שׁוֹנוֹת בְּרַחֲבֵי יַבֶּשֶׁת אַסְיָה בְּאֶמְצָעוּת שִׁירִים וְהוֹפָעוֹת.",
+     "audio": "audio/2026-11-15/4a36d0fad01e980b.mp3"
+    },
+    {
+     "plain": "אמנים מכל רחבי האזור הגיעו כדי להציג את כישרונם המוזיקלי מול מיליוני צופים.",
+     "ru": "Артисты со всего региона приехали, чтобы продемонстрировать свой музыкальный талант перед миллионами зрителей.",
+     "he": "אׇמָּנִים מִכׇּל רַחֲבֵי הָאֵזוֹר הִגִּיעוּ כְּדֵי לְהַצִּיג אֶת כִּישְׁרוֹנָם הַמּוּזִיקָלִי מוּל מִילְיוֹנֵי צוֹפִים.",
+     "audio": "audio/2026-11-15/c7fdae3136a12451.mp3"
+    },
+    {
+     "plain": "ההפקה של האירוע הגדול כללה במות מתקדמות, תאורה מרשימה ושידור ישיר למדינות רבות.",
+     "ru": "Производство этого грандиозного события включало современные сцены, впечатляющее освещение и прямую трансляцию во многие страны.",
+     "he": "הַהֲפָקָה שֶׁל הָאֵירוּעַ הַגָּדוֹל כָּלְלָה בַּמוֹת מִתְקַדְּמוֹת, תְּאוּרָה מַרְשִׁימָה וְשִׁידּוּר יָשִׁיר לִמְדִינוֹת רַבּוֹת.",
+     "audio": "audio/2026-11-15/2d81bf393e186ce1.mp3"
+    },
+    {
+     "plain": "הקהל באולם הגיב בהתלהבות רבה להופעה המנצחת, ששילבה סגנון מודרני עם אלמנטים מסורתיים.",
+     "ru": "Публика в зале с большим восторгом отреагировала на победное выступление, сочетавшее современный стиль с традиционными элементами.",
+     "he": "הַקָּהָל בָּאוּלָם הֵגִיב בְּהִתְלַהֲבוּת רַבָּה לַהוֹפָעָה הַמְּנַצַּחַת, שֶׁשִּׁילְּבָה סִגְנוֹן מוֹדֶרְנִי עִם אֵלֵמֶנְטִים מָסׇורְתִּיִּים.",
+     "audio": "audio/2026-11-15/f02c4c28cd9db9ea.mp3"
+    },
+    {
+     "plain": "הזכייה עוררה שמחה וגאווה רבה בפיליפינים, שם עקבו בהתרגשות אחרי שלבי התחרות.",
+     "ru": "Победа вызвала огромную радость и гордость на Филиппинах, где с волнением следили за этапами конкурса.",
+     "he": "הַזְּכִיָּיה עוֹרְרָה שִׂמְחָה וְגַאֲוָוה רַבָּה בַּפִילִיפִּינִים, שָׁם עָקְבוּ בְּהִתְרַגְּשׁוּת אַחֲרֵי שְׁלַבֵּי הַתַּחֲרוּת.",
+     "audio": "audio/2026-11-15/03defca9cb02bd46.mp3"
+    },
+    {
+     "plain": "המארגנים מקווים שהאירוע יהפוך למסורת שנתית קבועה שתפתח דלתות לזמרים צעירים בעולם.",
+     "ru": "Организаторы надеются, что мероприятие станет регулярной ежегодной традицией, которая откроет двери молодым певцам в мире.",
+     "he": "הַמְּאַרְגְּנִים מְקַוִּוים שֶׁהָאֵירוּעַ יַהֲפֹוךְ לְמָסֹורֶת שְׁנָתִית קְבוּעָה שֶׁתִּפְתַּח דְּלָתוֹת לְזַמָּרִים צְעִירִים בָּעוֹלָם.",
+     "audio": "audio/2026-11-15/0c4b7b941293e1a4.mp3"
+    }
+   ],
+   "glossary": [
+    {
+     "form": "תחרות",
+     "lemma": "תחרות",
+     "pos": "NOUN",
+     "ru": "соревнование, конкурс",
+     "root": "ח-ר-ה",
+     "binyan": "NONE",
+     "lemma_nikud": "תַּחֲרוּת",
+     "form_nikud": "תַּחֲרוּת"
+    },
+    {
+     "form": "זמר",
+     "lemma": "זמר",
+     "pos": "NOUN",
+     "ru": "пение, песня",
+     "root": "ז-מ-ר",
+     "binyan": "NONE",
+     "lemma_nikud": "זֶמָּר",
+     "form_nikud": ""
+    },
+    {
+     "form": "בינלאומית",
+     "lemma": "בינלאומי",
+     "pos": "ADJECTIVE",
+     "ru": "международный",
+     "root": "",
+     "binyan": "NONE",
+     "lemma_nikud": "בֵּינְלְאֻומִּי",
+     "form_nikud": ""
+    },
+    {
+     "form": "התקיימה",
+     "lemma": "התקיים",
+     "pos": "VERB",
+     "ru": "состояться, существовать",
+     "root": "ק-ו-ם",
+     "binyan": "HITPAEL",
+     "lemma_nikud": "הִתְקַיֵּים",
+     "form_nikud": "הִתְקַיְּימָה"
+    },
+    {
+     "form": "שנה",
+     "lemma": "שנה",
+     "pos": "NOUN",
+     "ru": "год",
+     "root": "ש-נ-ה",
+     "binyan": "NONE",
+     "lemma_nikud": "שָׁנָה",
+     "form_nikud": ""
+    },
+    {
+     "form": "פעם",
+     "lemma": "פעם",
+     "pos": "NOUN",
+     "ru": "раз",
+     "root": "פ-ע-ם",
+     "binyan": "NONE",
+     "lemma_nikud": "פַּעַם",
+     "form_nikud": ""
+    },
+    {
+     "form": "ראשונה",
+     "lemma": "ראשון",
+     "pos": "ADJECTIVE",
+     "ru": "первый",
+     "root": "ר-א-ש",
+     "binyan": "NONE",
+     "lemma_nikud": "רִאשׁוֹן",
+     "form_nikud": ""
+    },
+    {
+     "form": "היסטוריה",
+     "lemma": "היסטוריה",
+     "pos": "NOUN",
+     "ru": "история",
+     "root": "",
+     "binyan": "NONE",
+     "lemma_nikud": "הִיסְטוֹרְיָה",
+     "form_nikud": ""
+    },
+    {
+     "form": "השתתפות",
+     "lemma": "השתתפות",
+     "pos": "NOUN",
+     "ru": "участие",
+     "root": "ש-ת-ף",
+     "binyan": "NONE",
+     "lemma_nikud": "הִשְׁתַּתְּפוּת",
+     "form_nikud": ""
+    },
+    {
+     "form": "מדינות",
+     "lemma": "מדינה",
+     "pos": "NOUN",
+     "ru": "государство, страна",
+     "root": "ד-י-ן",
+     "binyan": "NONE",
+     "lemma_nikud": "מְדִינָה",
+     "form_nikud": "מְדִינוֹת"
+    },
+    {
+     "form": "רבות",
+     "lemma": "רב",
+     "pos": "ADJECTIVE",
+     "ru": "многочисленный",
+     "root": "ר-ב-ב",
+     "binyan": "NONE",
+     "lemma_nikud": "רַב",
+     "form_nikud": "רַבּוֹת"
+    },
+    {
+     "form": "נציגת",
+     "lemma": "נציגה",
+     "pos": "NOUN",
+     "ru": "представительница",
+     "root": "נ-צ-ג",
+     "binyan": "NONE",
+     "lemma_nikud": "נְצִיגָה",
+     "form_nikud": "נְצִיגַת"
+    },
+    {
+     "form": "הצליחה",
+     "lemma": "הצליח",
+     "pos": "VERB",
+     "ru": "преуспеть, суметь",
+     "root": "צ-ל-ח",
+     "binyan": "HIFIL",
+     "lemma_nikud": "הִצְלִיחַ",
+     "form_nikud": "הִצְלִיחָה"
+    },
+    {
+     "form": "להרשים",
+     "lemma": "הרשים",
+     "pos": "VERB",
+     "ru": "впечатлить",
+     "root": "ר-ש-ם",
+     "binyan": "HIFIL",
+     "lemma_nikud": "הַרְשִׁים",
+     "form_nikud": "לְהַרְשִׁים"
+    },
+    {
+     "form": "שופטים",
+     "lemma": "שופט",
+     "pos": "NOUN",
+     "ru": "судья, член жюри",
+     "root": "ש-פ-ט",
+     "binyan": "NONE",
+     "lemma_nikud": "שׁוֹפֵט",
+     "form_nikud": ""
+    },
+    {
+     "form": "קהל",
+     "lemma": "קהל",
+     "pos": "NOUN",
+     "ru": "публика, зрители",
+     "root": "ק-ה-ל",
+     "binyan": "NONE",
+     "lemma_nikud": "קָהָל",
+     "form_nikud": ""
+    },
+    {
+     "form": "זכתה",
+     "lemma": "זכה",
+     "pos": "VERB",
+     "ru": "выиграть, удостоиться",
+     "root": "ז-כ-ה",
+     "binyan": "PAAL",
+     "lemma_nikud": "זָכָה",
+     "form_nikud": ""
+    },
+    {
+     "form": "מקום",
+     "lemma": "מקום",
+     "pos": "NOUN",
+     "ru": "место",
+     "root": "ק-ו-ם",
+     "binyan": "NONE",
+     "lemma_nikud": "מָקוֹם",
+     "form_nikud": ""
+    },
+    {
+     "form": "מוזיקה",
+     "lemma": "מוזיקה",
+     "pos": "NOUN",
+     "ru": "музыка",
+     "root": "",
+     "binyan": "NONE",
+     "lemma_nikud": "מוּזִיקָה",
+     "form_nikud": ""
+    },
+    {
+     "form": "חדשה",
+     "lemma": "חדש",
+     "pos": "ADJECTIVE",
+     "ru": "новый",
+     "root": "ח-ד-ש",
+     "binyan": "NONE",
+     "lemma_nikud": "חָדָשׁ",
+     "form_nikud": ""
+    },
+    {
+     "form": "נועדה",
+     "lemma": "נועד",
+     "pos": "VERB",
+     "ru": "предназначаться",
+     "root": "י-ע-ד",
+     "binyan": "NIFAL",
+     "lemma_nikud": "נועַד",
+     "form_nikud": "נוֹעֲדָה"
+    },
+    {
+     "form": "לחבר",
+     "lemma": "חיבר",
+     "pos": "VERB",
+     "ru": "соединять, объединять",
+     "root": "ח-ב-ר",
+     "binyan": "PIEL",
+     "lemma_nikud": "חִיבֵּר",
+     "form_nikud": "לְחַבֵּר"
+    },
+    {
+     "form": "תרבויות",
+     "lemma": "תרבות",
+     "pos": "NOUN",
+     "ru": "культура",
+     "root": "ר-ב-ה",
+     "binyan": "NONE",
+     "lemma_nikud": "תַּרְבּוּת",
+     "form_nikud": "תַּרְבּוּיוֹת"
+    },
+    {
+     "form": "שונות",
+     "lemma": "שונה",
+     "pos": "ADJECTIVE",
+     "ru": "различный",
+     "root": "ש-נ-ה",
+     "binyan": "NONE",
+     "lemma_nikud": "שׁוֹנֶה",
+     "form_nikud": "שׁוֹנוֹת"
+    },
+    {
+     "form": "רחבי",
+     "lemma": "רחב",
+     "pos": "NOUN",
+     "ru": "просторы, пределы",
+     "root": "ר-ח-ב",
+     "binyan": "NONE",
+     "lemma_nikud": "רָחָב",
+     "form_nikud": "רַחֲבֵי"
+    },
+    {
+     "form": "יבשת",
+     "lemma": "יבשת",
+     "pos": "NOUN",
+     "ru": "континент, материк",
+     "root": "י-ב-ש",
+     "binyan": "NONE",
+     "lemma_nikud": "יַבֶּשֶׁת",
+     "form_nikud": "יַבֶּשֶׁת"
+    },
+    {
+     "form": "באמצעות",
+     "lemma": "באמצעות",
+     "pos": "PREPOSITION",
+     "ru": "посредством, с помощью",
+     "root": "",
+     "binyan": "NONE",
+     "lemma_nikud": "בְּאֶמְצָעוּת",
+     "form_nikud": "בְּאֶמְצָעוּת"
+    },
+    {
+     "form": "שירים",
+     "lemma": "שיר",
+     "pos": "NOUN",
+     "ru": "песня",
+     "root": "ש-י-ר",
+     "binyan": "NONE",
+     "lemma_nikud": "שִׁיר",
+     "form_nikud": "שִׁירִים"
+    },
+    {
+     "form": "הופעות",
+     "lemma": "הופעה",
+     "pos": "NOUN",
+     "ru": "выступление, концерт",
+     "root": "י-פ-ע",
+     "binyan": "NONE",
+     "lemma_nikud": "הוֹפָעָה",
+     "form_nikud": ""
+    },
+    {
+     "form": "אמנים",
+     "lemma": "אמן",
+     "pos": "NOUN",
+     "ru": "деятель искусств, артист",
+     "root": "א-מ-ן",
+     "binyan": "NONE",
+     "lemma_nikud": "אָמֵן",
+     "form_nikud": "אׇמָּנִים"
+    },
+    {
+     "form": "אזור",
+     "lemma": "אזור",
+     "pos": "NOUN",
+     "ru": "регион, область",
+     "root": "א-ז-ר",
+     "binyan": "NONE",
+     "lemma_nikud": "אָזוֹר",
+     "form_nikud": ""
+    },
+    {
+     "form": "הגיעו",
+     "lemma": "הגיע",
+     "pos": "VERB",
+     "ru": "прибыть, приехать",
+     "root": "נ-ג-ע",
+     "binyan": "HIFIL",
+     "lemma_nikud": "הִגִּיעַ",
+     "form_nikud": "הִגִּיעוּ"
+    },
+    {
+     "form": "כדי",
+     "lemma": "כדי",
+     "pos": "CONJUNCTION",
+     "ru": "чтобы",
+     "root": "",
+     "binyan": "NONE",
+     "lemma_nikud": "כְּדֵי",
+     "form_nikud": "כְּדֵי"
+    },
+    {
+     "form": "להציג",
+     "lemma": "הציג",
+     "pos": "VERB",
+     "ru": "показывать, демонстрировать",
+     "root": "י-צ-ג",
+     "binyan": "HIFIL",
+     "lemma_nikud": "הִצִּיג",
+     "form_nikud": "לְהַצִּיג"
+    },
+    {
+     "form": "כישרונם",
+     "lemma": "כישרון",
+     "pos": "NOUN",
+     "ru": "талант, дарование",
+     "root": "כ-ש-ר",
+     "binyan": "NONE",
+     "lemma_nikud": "כִּישָּׁרוֹן",
+     "form_nikud": "כִּישְׁרוֹנָם"
+    },
+    {
+     "form": "מוזיקלי",
+     "lemma": "מוזיקלי",
+     "pos": "ADJECTIVE",
+     "ru": "музыкальный",
+     "root": "",
+     "binyan": "NONE",
+     "lemma_nikud": "מוּזִיקָלִי",
+     "form_nikud": ""
+    },
+    {
+     "form": "מול",
+     "lemma": "מול",
+     "pos": "PREPOSITION",
+     "ru": "напротив, перед",
+     "root": "מ-ו-ל",
+     "binyan": "NONE",
+     "lemma_nikud": "מוּל",
+     "form_nikud": "מוּל"
+    },
+    {
+     "form": "מיליוני",
+     "lemma": "מיליון",
+     "pos": "NUMERAL",
+     "ru": "миллион",
+     "root": "",
+     "binyan": "NONE",
+     "lemma_nikud": "מִילְיוֹן",
+     "form_nikud": "מִילְיוֹנֵי"
+    },
+    {
+     "form": "צופים",
+     "lemma": "צופה",
+     "pos": "NOUN",
+     "ru": "зритель",
+     "root": "צ-פ-ה",
+     "binyan": "NONE",
+     "lemma_nikud": "צוֹפֶה",
+     "form_nikud": "צוֹפִים"
+    },
+    {
+     "form": "הפקה",
+     "lemma": "הפקה",
+     "pos": "NOUN",
+     "ru": "производство, продюсирование",
+     "root": "פ-ו-ק",
+     "binyan": "NONE",
+     "lemma_nikud": "הֲפָקָה",
+     "form_nikud": ""
+    },
+    {
+     "form": "אירוע",
+     "lemma": "אירוע",
+     "pos": "NOUN",
+     "ru": "событие, мероприятие",
+     "root": "א-ר-ע",
+     "binyan": "NONE",
+     "lemma_nikud": "אֵירוּעַ",
+     "form_nikud": ""
+    },
+    {
+     "form": "גדול",
+     "lemma": "גדול",
+     "pos": "ADJECTIVE",
+     "ru": "большой",
+     "root": "ג-ד-ל",
+     "binyan": "NONE",
+     "lemma_nikud": "גָּדוֹל",
+     "form_nikud": ""
+    },
+    {
+     "form": "כללה",
+     "lemma": "כלל",
+     "pos": "VERB",
+     "ru": "включать в себя",
+     "root": "כ-ל-ל",
+     "binyan": "PAAL",
+     "lemma_nikud": "כְּלָל",
+     "form_nikud": "כָּלְלָה"
+    },
+    {
+     "form": "במות",
+     "lemma": "במה",
+     "pos": "NOUN",
+     "ru": "сцена",
+     "root": "",
+     "binyan": "NONE",
+     "lemma_nikud": "בָּמָה",
+     "form_nikud": "בַּמוֹת"
+    },
+    {
+     "form": "מתקדמות",
+     "lemma": "מתקדם",
+     "pos": "ADJECTIVE",
+     "ru": "передовой, современный",
+     "root": "ק-ד-ם",
+     "binyan": "NONE",
+     "lemma_nikud": "מִתְקַדֵּם",
+     "form_nikud": "מִתְקַדְּמוֹת"
+    },
+    {
+     "form": "תאורה",
+     "lemma": "תאורה",
+     "pos": "NOUN",
+     "ru": "освещение",
+     "root": "א-ו-ר",
+     "binyan": "NONE",
+     "lemma_nikud": "תְּאוּרָה",
+     "form_nikud": "תְּאוּרָה"
+    },
+    {
+     "form": "מרשימה",
+     "lemma": "מרשים",
+     "pos": "ADJECTIVE",
+     "ru": "впечатляющий",
+     "root": "ר-ש-ם",
+     "binyan": "NONE",
+     "lemma_nikud": "מַרְשִׁים",
+     "form_nikud": "מַרְשִׁימָה"
+    },
+    {
+     "form": "שידור",
+     "lemma": "שידור",
+     "pos": "NOUN",
+     "ru": "трансляция, передача",
+     "root": "ש-ד-ר",
+     "binyan": "NONE",
+     "lemma_nikud": "שִׁידּוּר",
+     "form_nikud": ""
+    },
+    {
+     "form": "ישיר",
+     "lemma": "ישיר",
+     "pos": "ADJECTIVE",
+     "ru": "прямой",
+     "root": "י-ש-ר",
+     "binyan": "NONE",
+     "lemma_nikud": "יָשִׁיר",
+     "form_nikud": "יָשִׁיר"
+    },
+    {
+     "form": "אולם",
+     "lemma": "אולם",
+     "pos": "NOUN",
+     "ru": "зал",
+     "root": "",
+     "binyan": "NONE",
+     "lemma_nikud": "אוּלָם",
+     "form_nikud": ""
+    },
+    {
+     "form": "הגיב",
+     "lemma": "הגיב",
+     "pos": "VERB",
+     "ru": "реагировать",
+     "root": "ת-ג-ב",
+     "binyan": "HIFIL",
+     "lemma_nikud": "הֵגִיב",
+     "form_nikud": "הֵגִיב"
+    },
+    {
+     "form": "התלהבות",
+     "lemma": "התלהבות",
+     "pos": "NOUN",
+     "ru": "воодушевление, восторг",
+     "root": "ל-ה-ב",
+     "binyan": "NONE",
+     "lemma_nikud": "הִתְלַהֲבוּת",
+     "form_nikud": ""
+    },
+    {
+     "form": "רבה",
+     "lemma": "רב",
+     "pos": "ADJECTIVE",
+     "ru": "большой, обильный",
+     "root": "ר-ב-ב",
+     "binyan": "NONE",
+     "lemma_nikud": "רַב",
+     "form_nikud": "רַבָּה"
+    },
+    {
+     "form": "מנצחת",
+     "lemma": "מנצח",
+     "pos": "ADJECTIVE",
+     "ru": "победный",
+     "root": "נ-צ-ח",
+     "binyan": "NONE",
+     "lemma_nikud": "מְנַצֵּחַ",
+     "form_nikud": ""
+    },
+    {
+     "form": "שילבה",
+     "lemma": "שילב",
+     "pos": "VERB",
+     "ru": "сочетать, совмещать",
+     "root": "ש-ל-ב",
+     "binyan": "PIEL",
+     "lemma_nikud": "שִׁילֵּב",
+     "form_nikud": ""
+    },
+    {
+     "form": "סגנון",
+     "lemma": "סגנון",
+     "pos": "NOUN",
+     "ru": "стиль",
+     "root": "ס-ג-נ",
+     "binyan": "NONE",
+     "lemma_nikud": "סִגְנוֹן",
+     "form_nikud": "סִגְנוֹן"
+    },
+    {
+     "form": "מודרני",
+     "lemma": "מודרני",
+     "pos": "ADJECTIVE",
+     "ru": "современный",
+     "root": "",
+     "binyan": "NONE",
+     "lemma_nikud": "מוֹדֶרְנִי",
+     "form_nikud": "מוֹדֶרְנִי"
+    },
+    {
+     "form": "אלמנטים",
+     "lemma": "אלמנט",
+     "pos": "NOUN",
+     "ru": "элемент",
+     "root": "",
+     "binyan": "NONE",
+     "lemma_nikud": "אֵלֵמֵנְט",
+     "form_nikud": "אֵלֵמֶנְטִים"
+    },
+    {
+     "form": "מסורתיים",
+     "lemma": "מסורתי",
+     "pos": "ADJECTIVE",
+     "ru": "традиционный",
+     "root": "מ-ס-ר",
+     "binyan": "NONE",
+     "lemma_nikud": "מָסׇורְתִּי",
+     "form_nikud": "מָסׇורְתִּיִּים"
+    },
+    {
+     "form": "זכייה",
+     "lemma": "זכייה",
+     "pos": "NOUN",
+     "ru": "выигрыш, победа",
+     "root": "ז-כ-ה",
+     "binyan": "NONE",
+     "lemma_nikud": "זְכִיָּיה",
+     "form_nikud": ""
+    },
+    {
+     "form": "עוררה",
+     "lemma": "עורר",
+     "pos": "VERB",
+     "ru": "будить, вызывать",
+     "root": "ע-ו-ר",
+     "binyan": "PIEL",
+     "lemma_nikud": "עוֹרֵר",
+     "form_nikud": "עוֹרְרָה"
+    },
+    {
+     "form": "שמחה",
+     "lemma": "שמחה",
+     "pos": "NOUN",
+     "ru": "радость",
+     "root": "ש-מ-ח",
+     "binyan": "NONE",
+     "lemma_nikud": "שִׂמְחָה",
+     "form_nikud": "שִׂמְחָה"
+    },
+    {
+     "form": "גאווה",
+     "lemma": "גאווה",
+     "pos": "NOUN",
+     "ru": "гордость",
+     "root": "ג-א-ה",
+     "binyan": "NONE",
+     "lemma_nikud": "גַּאֲוָוה",
+     "form_nikud": ""
+    },
+    {
+     "form": "שם",
+     "lemma": "שם",
+     "pos": "ADVERB",
+     "ru": "там",
+     "root": "",
+     "binyan": "NONE",
+     "lemma_nikud": "שָׁם",
+     "form_nikud": "שָׁם"
+    },
+    {
+     "form": "עקבו",
+     "lemma": "עקב",
+     "pos": "VERB",
+     "ru": "следить, наблюдать",
+     "root": "ע-ק-ב",
+     "binyan": "PAAL",
+     "lemma_nikud": "עָקֶב",
+     "form_nikud": "עָקְבוּ"
+    },
+    {
+     "form": "התרגשות",
+     "lemma": "התרגשות",
+     "pos": "NOUN",
+     "ru": "волнение",
+     "root": "ר-ג-ש",
+     "binyan": "NONE",
+     "lemma_nikud": "הִתְרַגְּשׁוּת",
+     "form_nikud": ""
+    },
+    {
+     "form": "אחרי",
+     "lemma": "אחרי",
+     "pos": "PREPOSITION",
+     "ru": "после, за",
+     "root": "א-ח-ר",
+     "binyan": "NONE",
+     "lemma_nikud": "אַחֲרֵי",
+     "form_nikud": "אַחֲרֵי"
+    },
+    {
+     "form": "שלבי",
+     "lemma": "שלב",
+     "pos": "NOUN",
+     "ru": "этап, стадия",
+     "root": "ש-ל-ב",
+     "binyan": "NONE",
+     "lemma_nikud": "שָׁלָב",
+     "form_nikud": "שְׁלַבֵּי"
+    },
+    {
+     "form": "מארגנים",
+     "lemma": "מארגן",
+     "pos": "NOUN",
+     "ru": "организатор",
+     "root": "א-ר-ג-ן",
+     "binyan": "NONE",
+     "lemma_nikud": "מְאַרְגֵּן",
+     "form_nikud": ""
+    },
+    {
+     "form": "מקווים",
+     "lemma": "קיווה",
+     "pos": "VERB",
+     "ru": "надеяться",
+     "root": "ק-ו-ה",
+     "binyan": "PIEL",
+     "lemma_nikud": "קִיווה",
+     "form_nikud": "מְקַוִּוים"
+    },
+    {
+     "form": "יהפוך",
+     "lemma": "הפך",
+     "pos": "VERB",
+     "ru": "превратиться, стать",
+     "root": "ה-פ-ך",
+     "binyan": "PAAL",
+     "lemma_nikud": "הָפַךְ",
+     "form_nikud": "יַהֲפֹוךְ"
+    },
+    {
+     "form": "מסורת",
+     "lemma": "מסורת",
+     "pos": "NOUN",
+     "ru": "традиция",
+     "root": "מ-ס-ר",
+     "binyan": "NONE",
+     "lemma_nikud": "מָסֹורֶת",
+     "form_nikud": ""
+    },
+    {
+     "form": "שנתית",
+     "lemma": "שנתי",
+     "pos": "ADJECTIVE",
+     "ru": "ежегодный",
+     "root": "ש-נ-ה",
+     "binyan": "NONE",
+     "lemma_nikud": "שְׁנָתִי",
+     "form_nikud": "שְׁנָתִית"
+    },
+    {
+     "form": "קבועה",
+     "lemma": "קבוע",
+     "pos": "ADJECTIVE",
+     "ru": "постоянный",
+     "root": "ק-ב-ע",
+     "binyan": "NONE",
+     "lemma_nikud": "קָבוּעַ",
+     "form_nikud": "קְבוּעָה"
+    },
+    {
+     "form": "תפתח",
+     "lemma": "פתח",
+     "pos": "VERB",
+     "ru": "открыть",
+     "root": "פ-ת-ח",
+     "binyan": "PAAL",
+     "lemma_nikud": "פֶּתַח",
+     "form_nikud": ""
+    },
+    {
+     "form": "דלתות",
+     "lemma": "דלת",
+     "pos": "NOUN",
+     "ru": "дверь",
+     "root": "ד-ל-ת",
+     "binyan": "NONE",
+     "lemma_nikud": "דֶּלֶת",
+     "form_nikud": "דְּלָתוֹת"
+    },
+    {
+     "form": "זמרים",
+     "lemma": "זמר",
+     "pos": "NOUN",
+     "ru": "певец",
+     "root": "ז-מ-ר",
+     "binyan": "NONE",
+     "lemma_nikud": "זֶמָּר",
+     "form_nikud": ""
+    },
+    {
+     "form": "צעירים",
+     "lemma": "צעיר",
+     "pos": "ADJECTIVE",
+     "ru": "молодой",
+     "root": "צ-ע-ר",
+     "binyan": "NONE",
+     "lemma_nikud": "צָעִיר",
+     "form_nikud": "צְעִירִים"
+    },
+    {
+     "form": "עולם",
+     "lemma": "עולם",
+     "pos": "NOUN",
+     "ru": "мир",
+     "root": "ע-ל-ם",
+     "binyan": "NONE",
+     "lemma_nikud": "עוֹלָם",
+     "form_nikud": ""
+    }
+   ],
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Sunset_over_Paljassaare_Outdoor_Concert_Stage_Tallinn_Cruise_Terminal_Tallinn_27_August_2022.jpg/960px-Sunset_over_Paljassaare_Outdoor_Concert_Stage_Tallinn_Cruise_Terminal_Tallinn_27_August_2022.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "author": "Pjotr Mahhonin",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Sunset_over_Paljassaare_Outdoor_Concert_Stage_Tallinn_Cruise_Terminal_Tallinn_27_August_2022.jpg"
+   },
+   "sources": [
+    {
+     "title": "הפיליפינים היא הזוכה באירוויזיון אסיה הראשון",
+     "outlet": "YNET",
+     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBDMFdJRXJ0b1lpYmhTcG5HTm5sVzF5NWhfU1JKaDRIRTNzZ0xrMHlzZkFsVVBkUmZIUDR6NnlpREZGSDRpQzc1Vkp5U3BRTWE4bk04a0ZqM1ZKa0hqdkxUUUh3Yjh2dw?oc=5"
+    }
+   ],
+   "title_he": "הַפִילִיפִּינִים נִיצְּחָה בְּתַחֲרוּת אֵירוֹוִיזְיוֹן אַסְיָה הָרִאשׁוֹנָה"
+  },
   {
    "id": "2026-11-14-society",
    "date": "2026-11-14",
