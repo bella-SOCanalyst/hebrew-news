@@ -1,7 +1,1834 @@
 {
  "format": 1,
- "generated": "2026-11-15T03:48:31+00:00",
+ "generated": "2026-11-16T05:25:27+00:00",
  "items": [
+  {
+   "id": "2026-11-16-society",
+   "date": "2026-11-16",
+   "category": "Общество",
+   "level": 2,
+   "cefr": "A2–B1",
+   "title_ru": "Погода в Израиле: температура снижается, но дождей пока не видно",
+   "title_plain": "מזג האוויר בישראל: הטמפרטורות יורדות אך הגשם מתעכב",
+   "sentences": [
+    {
+     "plain": "עונת הסתיו כבר התחילה בישראל, ומזג האוויר מתחיל להשתנות לאט.",
+     "ru": "Осенний сезон в Израиле уже начался, и погода начинает медленно меняться.",
+     "he": "עוֹנַת הַסְּתָיו כְּבָר הִתְחִילָה בְּיִשְׂרָאֵל, וּמֶזֶג הָאֲוִויר מַתְחִיל לְהִשְׁתַּנּוֹת לְאַט.",
+     "audio": "audio/2026-11-16/0341d08c21f5c702.mp3"
+    },
+    {
+     "plain": "בימים האחרונים הטמפרטורות ברחבי הארץ ירדו והאוויר נהיה נעים יותר.",
+     "ru": "В последние дни температура по всей стране снизилась, и воздух стал приятнее.",
+     "he": "בַּיָּמִים הָאַחֲרוֹנִים הַטֶּמְפֵּרָטוּרוֹת בְּרַחֲבֵי הָאָרֶץ יָרְדוּ וְהָאֲוִויר נִהְיָה נָעִים יוֹתֵר.",
+     "audio": "audio/2026-11-16/491212dc1288abfd.mp3"
+    },
+    {
+     "plain": "אזרחים רבים חיכו לבואו של הגשם הראשון לאחר הקיץ החם.",
+     "ru": "Многие жители ждали прихода первого дождя после жаркого лета.",
+     "he": "אֶזְרָחִים רַבִּים חִיכּוּ לְבוֹאוֹ שֶׁל הַגֶּשֶׁם הָרִאשׁוֹן לְאַחַר הַקַּיִץ הַחַם.",
+     "audio": "audio/2026-11-16/89ce11a525211f22.mp3"
+    },
+    {
+     "plain": "עם זאת, החזאים אומרים שגשם אמיתי עדיין לא נראה באופק.",
+     "ru": "Тем не менее, синоптики говорят, что настоящего дождя пока не видно на горизонте.",
+     "he": "עִם זֹאת, הַחַזָּאִים אוֹמְרִים שֶׁגֶּשֶׁם אֲמִיתִּי עֲדַיִין לֹא נִרְאֶה בָּאֹופֶק.",
+     "audio": "audio/2026-11-16/54b3cb44ef6bfaa9.mp3"
+    },
+    {
+     "plain": "השמיים מעוננים לפעמים, אבל כמעט אין משקעים באף אזור.",
+     "ru": "Небо иногда затянуто облаками, но осадков почти нет ни в одном регионе.",
+     "he": "הַשָּׁמַיִים מְעוֹנְנִים לִפְעָמִים, אֲבָל כִּמְעַט אֵין מִשְׁקָעִים בְּאַף אֵזוֹר.",
+     "audio": "audio/2026-11-16/49fb47a3d98caa06.mp3"
+    },
+    {
+     "plain": "החקלאים מקווים שהחורף יביא איתו הרבה מים לשדות בקרוב.",
+     "ru": "Фермеры надеются, что зима скоро принесет с собой много воды для полей.",
+     "he": "הַחַקְלָאִים מְקַוִּוים שֶׁהַחֹורֶף יָבִיא אִיתּוֹ הַרְבֵּה מַיִם לַשָּׂדוֹת בְּקָרוֹב.",
+     "audio": "audio/2026-11-16/ebba02efc93dfd4c.mp3"
+    },
+    {
+     "plain": "בינתיים, הישראלים יכולים ליהנות מטיולים נעימים בטבע בסוף השבוע.",
+     "ru": "Тем временем израильтяне могут наслаждаться приятными прогулками на природе в выходные.",
+     "he": "בֵּינְתַיִים, הַיִּשְׂרְאֵלִים יְכוֹלִים לֵיהָנוֹת מִטִּיּוּלִים נְעִימִים בַּטֶּבַע בְּסוֹף הַשָּׁבוּעַ.",
+     "audio": "audio/2026-11-16/4028f4728a4ee51c.mp3"
+    }
+   ],
+   "glossary": [
+    {
+     "form": "עונת",
+     "lemma": "עונה",
+     "pos": "NOUN",
+     "ru": "сезон, время года",
+     "root": "ע-ו-נ",
+     "binyan": "NONE",
+     "lemma_nikud": "עוֹנָה",
+     "form_nikud": "עוֹנַת"
+    },
+    {
+     "form": "סתיו",
+     "lemma": "סתיו",
+     "pos": "NOUN",
+     "ru": "осень",
+     "root": "ס-ת-ו",
+     "binyan": "NONE",
+     "lemma_nikud": "סְתָיו",
+     "form_nikud": ""
+    },
+    {
+     "form": "כבר",
+     "lemma": "כבר",
+     "pos": "ADVERB",
+     "ru": "уже",
+     "root": "",
+     "binyan": "NONE",
+     "lemma_nikud": "כְּבָר",
+     "form_nikud": "כְּבָר"
+    },
+    {
+     "form": "התחילה",
+     "lemma": "להתחיל",
+     "pos": "VERB",
+     "ru": "начинать",
+     "root": "ת-ח-ל",
+     "binyan": "HIFIL",
+     "lemma_nikud": "לְהַתְחִיל",
+     "form_nikud": "הִתְחִילָה"
+    },
+    {
+     "form": "מזג אוויר",
+     "lemma": "מזג אוויר",
+     "pos": "NOUN",
+     "ru": "погода",
+     "root": "",
+     "binyan": "NONE",
+     "lemma_nikud": "מֶזֶג אֲוִויר",
+     "form_nikud": ""
+    },
+    {
+     "form": "מתחיל",
+     "lemma": "להתחיל",
+     "pos": "VERB",
+     "ru": "начинать",
+     "root": "ת-ח-ל",
+     "binyan": "HIFIL",
+     "lemma_nikud": "לְהַתְחִיל",
+     "form_nikud": "מַתְחִיל"
+    },
+    {
+     "form": "להשתנות",
+     "lemma": "להשתנות",
+     "pos": "VERB",
+     "ru": "меняться, изменяться",
+     "root": "ש-נ-ה",
+     "binyan": "HITPAEL",
+     "lemma_nikud": "לְהִשְׁתַּנּוֹת",
+     "form_nikud": "לְהִשְׁתַּנּוֹת"
+    },
+    {
+     "form": "לאט",
+     "lemma": "לאט",
+     "pos": "ADVERB",
+     "ru": "медленно",
+     "root": "א-ט-ט",
+     "binyan": "NONE",
+     "lemma_nikud": "לְאט",
+     "form_nikud": "לְאַט"
+    },
+    {
+     "form": "ימים",
+     "lemma": "יום",
+     "pos": "NOUN",
+     "ru": "день",
+     "root": "י-ו-ם",
+     "binyan": "NONE",
+     "lemma_nikud": "יוֹם",
+     "form_nikud": ""
+    },
+    {
+     "form": "אחרונים",
+     "lemma": "אחרון",
+     "pos": "ADJECTIVE",
+     "ru": "последний",
+     "root": "א-ח-ר",
+     "binyan": "NONE",
+     "lemma_nikud": "אַחֲרוֹן",
+     "form_nikud": ""
+    },
+    {
+     "form": "טמפרטורות",
+     "lemma": "טמפרטורה",
+     "pos": "NOUN",
+     "ru": "температура",
+     "root": "",
+     "binyan": "NONE",
+     "lemma_nikud": "טֶמְפֵּרָטוּרָה",
+     "form_nikud": ""
+    },
+    {
+     "form": "רחבי הארץ",
+     "lemma": "רחבי הארץ",
+     "pos": "PHRASE",
+     "ru": "по всей стране",
+     "root": "",
+     "binyan": "NONE",
+     "lemma_nikud": "רַחֲבֵי הָאָרֶץ",
+     "form_nikud": ""
+    },
+    {
+     "form": "ירדו",
+     "lemma": "לרדת",
+     "pos": "VERB",
+     "ru": "спускаться, снижаться",
+     "root": "י-ר-ד",
+     "binyan": "PAAL",
+     "lemma_nikud": "לָרֶדֶת",
+     "form_nikud": "יָרְדוּ"
+    },
+    {
+     "form": "נהיה",
+     "lemma": "נהיה",
+     "pos": "VERB",
+     "ru": "становиться",
+     "root": "ה-י-ה",
+     "binyan": "NIFAL",
+     "lemma_nikud": "נִהְיֶה",
+     "form_nikud": "נִהְיָה"
+    },
+    {
+     "form": "נעים",
+     "lemma": "נעים",
+     "pos": "ADJECTIVE",
+     "ru": "приятный",
+     "root": "נ-ע-ם",
+     "binyan": "NONE",
+     "lemma_nikud": "נָעִים",
+     "form_nikud": "נָעִים"
+    },
+    {
+     "form": "יותר",
+     "lemma": "יותר",
+     "pos": "ADVERB",
+     "ru": "более, больше",
+     "root": "י-ת-ר",
+     "binyan": "NONE",
+     "lemma_nikud": "יוֹתֵר",
+     "form_nikud": "יוֹתֵר"
+    },
+    {
+     "form": "אזרחים",
+     "lemma": "אזרח",
+     "pos": "NOUN",
+     "ru": "гражданин, житель",
+     "root": "א-ז-ר-ח",
+     "binyan": "NONE",
+     "lemma_nikud": "אֶזְרָח",
+     "form_nikud": "אֶזְרָחִים"
+    },
+    {
+     "form": "רבים",
+     "lemma": "רב",
+     "pos": "ADJECTIVE",
+     "ru": "многие, многочисленный",
+     "root": "ר-ב-ב",
+     "binyan": "NONE",
+     "lemma_nikud": "רַב",
+     "form_nikud": "רַבִּים"
+    },
+    {
+     "form": "חיכו",
+     "lemma": "לחכות",
+     "pos": "VERB",
+     "ru": "ждать",
+     "root": "ח-כ-ה",
+     "binyan": "PIEL",
+     "lemma_nikud": "לְחַכּוֹת",
+     "form_nikud": "חִיכּוּ"
+    },
+    {
+     "form": "בואו",
+     "lemma": "בוא",
+     "pos": "NOUN",
+     "ru": "приход, прибытие",
+     "root": "ב-ו-א",
+     "binyan": "NONE",
+     "lemma_nikud": "בּוֹא",
+     "form_nikud": ""
+    },
+    {
+     "form": "גשם",
+     "lemma": "גשם",
+     "pos": "NOUN",
+     "ru": "дождь",
+     "root": "ג-ש-ם",
+     "binyan": "NONE",
+     "lemma_nikud": "גֶּשֶׁם",
+     "form_nikud": ""
+    },
+    {
+     "form": "ראשון",
+     "lemma": "ראשון",
+     "pos": "ADJECTIVE",
+     "ru": "первый",
+     "root": "ר-א-ש",
+     "binyan": "NONE",
+     "lemma_nikud": "רִאשׁוֹן",
+     "form_nikud": ""
+    },
+    {
+     "form": "קיץ",
+     "lemma": "קיץ",
+     "pos": "NOUN",
+     "ru": "лето",
+     "root": "ק-י-ץ",
+     "binyan": "NONE",
+     "lemma_nikud": "קַיִץ",
+     "form_nikud": ""
+    },
+    {
+     "form": "חם",
+     "lemma": "חם",
+     "pos": "ADJECTIVE",
+     "ru": "горячий, жаркий",
+     "root": "ח-מ-ם",
+     "binyan": "NONE",
+     "lemma_nikud": "חַם",
+     "form_nikud": ""
+    },
+    {
+     "form": "עם זאת",
+     "lemma": "עם זאת",
+     "pos": "PHRASE",
+     "ru": "вместе с тем, однако",
+     "root": "",
+     "binyan": "NONE",
+     "lemma_nikud": "עִם זֹאת",
+     "form_nikud": ""
+    },
+    {
+     "form": "חזאים",
+     "lemma": "חזאי",
+     "pos": "NOUN",
+     "ru": "синоптик",
+     "root": "ח-ז-ה",
+     "binyan": "NONE",
+     "lemma_nikud": "חַזַּאי",
+     "form_nikud": ""
+    },
+    {
+     "form": "אומרים",
+     "lemma": "לומר",
+     "pos": "VERB",
+     "ru": "говорить, сказать",
+     "root": "א-מ-ר",
+     "binyan": "PAAL",
+     "lemma_nikud": "לוֹמַר",
+     "form_nikud": "אוֹמְרִים"
+    },
+    {
+     "form": "אמיתי",
+     "lemma": "אמיתי",
+     "pos": "ADJECTIVE",
+     "ru": "настоящий",
+     "root": "א-מ-ת",
+     "binyan": "NONE",
+     "lemma_nikud": "אֲמִיתִּי",
+     "form_nikud": "אֲמִיתִּי"
+    },
+    {
+     "form": "עדיין",
+     "lemma": "עדיין",
+     "pos": "ADVERB",
+     "ru": "все еще, пока",
+     "root": "",
+     "binyan": "NONE",
+     "lemma_nikud": "עֲדַיִין",
+     "form_nikud": "עֲדַיִין"
+    },
+    {
+     "form": "נראה",
+     "lemma": "להיראות",
+     "pos": "VERB",
+     "ru": "виднеться, казаться",
+     "root": "ר-א-ה",
+     "binyan": "NIFAL",
+     "lemma_nikud": "לְהֵירָאוֹת",
+     "form_nikud": "נִרְאֶה"
+    },
+    {
+     "form": "אופק",
+     "lemma": "אופק",
+     "pos": "NOUN",
+     "ru": "горизонт",
+     "root": "א-פ-ק",
+     "binyan": "NONE",
+     "lemma_nikud": "אֹופֶק",
+     "form_nikud": ""
+    },
+    {
+     "form": "שמיים",
+     "lemma": "שמיים",
+     "pos": "NOUN",
+     "ru": "небо",
+     "root": "ש-מ-י",
+     "binyan": "NONE",
+     "lemma_nikud": "שָׁמַיִים",
+     "form_nikud": ""
+    },
+    {
+     "form": "מעוננים",
+     "lemma": "מעונן",
+     "pos": "ADJECTIVE",
+     "ru": "облачный",
+     "root": "ע-נ-נ",
+     "binyan": "NONE",
+     "lemma_nikud": "מְעֻונָּן",
+     "form_nikud": "מְעוֹנְנִים"
+    },
+    {
+     "form": "לפעמים",
+     "lemma": "לפעמים",
+     "pos": "ADVERB",
+     "ru": "иногда",
+     "root": "פ-ע-ם",
+     "binyan": "NONE",
+     "lemma_nikud": "לִפְעָמִים",
+     "form_nikud": "לִפְעָמִים"
+    },
+    {
+     "form": "כמעט",
+     "lemma": "כמעט",
+     "pos": "ADVERB",
+     "ru": "почти",
+     "root": "מ-ע-ט",
+     "binyan": "NONE",
+     "lemma_nikud": "כִּמְעַט",
+     "form_nikud": "כִּמְעַט"
+    },
+    {
+     "form": "אין",
+     "lemma": "אין",
+     "pos": "PARTICLE",
+     "ru": "нет (отсутствует)",
+     "root": "א-י-ן",
+     "binyan": "NONE",
+     "lemma_nikud": "אֵין",
+     "form_nikud": "אֵין"
+    },
+    {
+     "form": "משקעים",
+     "lemma": "משקע",
+     "pos": "NOUN",
+     "ru": "осадки",
+     "root": "ש-ק-ע",
+     "binyan": "NONE",
+     "lemma_nikud": "מִשְׁקע",
+     "form_nikud": "מִשְׁקָעִים"
+    },
+    {
+     "form": "אזור",
+     "lemma": "אזור",
+     "pos": "NOUN",
+     "ru": "регион, район",
+     "root": "א-ז-ר",
+     "binyan": "NONE",
+     "lemma_nikud": "אָזוֹר",
+     "form_nikud": "אֵזוֹר"
+    },
+    {
+     "form": "חקלאים",
+     "lemma": "חקלאי",
+     "pos": "NOUN",
+     "ru": "фермер, земледелец",
+     "root": "ח-ק-ל",
+     "binyan": "NONE",
+     "lemma_nikud": "חַקְלָאִי",
+     "form_nikud": ""
+    },
+    {
+     "form": "מקווים",
+     "lemma": "לקוות",
+     "pos": "VERB",
+     "ru": "надеяться",
+     "root": "ק-ו-ה",
+     "binyan": "PIEL",
+     "lemma_nikud": "לְקַוּוֹת",
+     "form_nikud": "מְקַוִּוים"
+    },
+    {
+     "form": "חורף",
+     "lemma": "חורף",
+     "pos": "NOUN",
+     "ru": "зима",
+     "root": "ח-ר-ף",
+     "binyan": "NONE",
+     "lemma_nikud": "חֹורֶף",
+     "form_nikud": ""
+    },
+    {
+     "form": "יביא",
+     "lemma": "להביא",
+     "pos": "VERB",
+     "ru": "приносить, приводить",
+     "root": "ב-ו-א",
+     "binyan": "HIFIL",
+     "lemma_nikud": "לְהָבִיא",
+     "form_nikud": "יָבִיא"
+    },
+    {
+     "form": "הרבה",
+     "lemma": "הרבה",
+     "pos": "ADVERB",
+     "ru": "много",
+     "root": "ר-ב-ה",
+     "binyan": "NONE",
+     "lemma_nikud": "הַרְבֵּה",
+     "form_nikud": "הַרְבֵּה"
+    },
+    {
+     "form": "מים",
+     "lemma": "מים",
+     "pos": "NOUN",
+     "ru": "вода",
+     "root": "מ-י-ם",
+     "binyan": "NONE",
+     "lemma_nikud": "מַיִם",
+     "form_nikud": "מַיִם"
+    },
+    {
+     "form": "שדות",
+     "lemma": "שדה",
+     "pos": "NOUN",
+     "ru": "поле",
+     "root": "ש-ד-ה",
+     "binyan": "NONE",
+     "lemma_nikud": "שָׂדֶה",
+     "form_nikud": ""
+    },
+    {
+     "form": "בקרוב",
+     "lemma": "בקרוב",
+     "pos": "ADVERB",
+     "ru": "скоро",
+     "root": "ק-ר-ב",
+     "binyan": "NONE",
+     "lemma_nikud": "בְּקָרוֹב",
+     "form_nikud": "בְּקָרוֹב"
+    },
+    {
+     "form": "בינתיים",
+     "lemma": "בינתיים",
+     "pos": "ADVERB",
+     "ru": "тем временем, пока",
+     "root": "ב-י-ן",
+     "binyan": "NONE",
+     "lemma_nikud": "בֵּינְתַיִים",
+     "form_nikud": "בֵּינְתַיִים"
+    },
+    {
+     "form": "ישראלים",
+     "lemma": "ישראלי",
+     "pos": "NOUN",
+     "ru": "израильтянин",
+     "root": "",
+     "binyan": "NONE",
+     "lemma_nikud": "יִשְׂרְאֵלִי",
+     "form_nikud": ""
+    },
+    {
+     "form": "יכולים",
+     "lemma": "יכול",
+     "pos": "VERB",
+     "ru": "мочь",
+     "root": "י-כ-ל",
+     "binyan": "PAAL",
+     "lemma_nikud": "יָכֹוֹל",
+     "form_nikud": "יְכוֹלִים"
+    },
+    {
+     "form": "ליהנות",
+     "lemma": "ליהנות",
+     "pos": "VERB",
+     "ru": "наслаждаться, получать удовольствие",
+     "root": "ה-נ-ה",
+     "binyan": "NIFAL",
+     "lemma_nikud": "לֵיהָנוֹת",
+     "form_nikud": "לֵיהָנוֹת"
+    },
+    {
+     "form": "טיולים",
+     "lemma": "טיול",
+     "pos": "NOUN",
+     "ru": "прогулка, поход, экскурсия",
+     "root": "ט-י-ל",
+     "binyan": "NONE",
+     "lemma_nikud": "טִיּוּל",
+     "form_nikud": ""
+    },
+    {
+     "form": "טבע",
+     "lemma": "טבע",
+     "pos": "NOUN",
+     "ru": "природа",
+     "root": "ט-ב-ע",
+     "binyan": "NONE",
+     "lemma_nikud": "טֶבַע",
+     "form_nikud": ""
+    },
+    {
+     "form": "סוף שבוע",
+     "lemma": "סוף שבוע",
+     "pos": "NOUN",
+     "ru": "выходные, уик-энд",
+     "root": "",
+     "binyan": "NONE",
+     "lemma_nikud": "סוֹף שָׁבוּעַ",
+     "form_nikud": ""
+    }
+   ],
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Aalto%2C_Ilmari_-_Autumn_landscape_with_clouds_-_Google_Art_Project.jpg/960px-Aalto%2C_Ilmari_-_Autumn_landscape_with_clouds_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "author": "Aalto, Ilmari (1891 - 1934)  (Finnish) Details on Google Art Project",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Aalto,_Ilmari_-_Autumn_landscape_with_clouds_-_Google_Art_Project.jpg"
+   },
+   "sources": [
+    {
+     "title": "הטמפרטורות ירדו, אבל גשם של ממש עדיין לא נראה באופק",
+     "outlet": "mako",
+     "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBZQ0VKcUVmRExkVUpXVDM1cFJJeTZhUzFycmE0TzNtSE1iSUxOVnMyX2NLZy14ei1VMWJSUHJEV2RxbjVWZVZSaEF1YmNROHFwTDNhMzlocWR1S3l4eTZXLVVvVnR0X3BxamlSN002TlBsTndBb2sxbU54Z1FSck0?oc=5"
+    }
+   ],
+   "title_he": "מֶזֶג הָאֲוִויר בְּיִשְׂרָאֵל: הַטֶּמְפֵּרָטוּרוֹת יוֹרְדוֹת אַךְ הַגֶּשֶׁם מִתְעַכֵּב"
+  },
+  {
+   "id": "2026-11-16-tech",
+   "date": "2026-11-16",
+   "category": "Технологии",
+   "level": 3,
+   "cefr": "B1–B2",
+   "title_ru": "Историческое достижение в космосе: корабль Starship пойман пусковой башней",
+   "title_plain": "הישג היסטורי בחלל: חללית סטארשיפ נלכדה במגדל השיגור",
+   "sentences": [
+    {
+     "plain": "חללית הענק סטארשיפ השלימה ניסוי טיסה מרשים במיוחד בחלל וחזרה לכדור הארץ בהצלחה רבה.",
+     "ru": "Гигантский космический корабль Starship завершил особенно впечатляющий испытательный полет в космосе и успешно вернулся на Землю.",
+     "he": "חֲלָלִית הָעֲנָק סְטַארְשִׁיפּ הִשְׁלִימָה נִיסּוּי טִיסָה מַרְשִׁים בִּמְיֻוחָד בֶּחָלָל וְחָזְרָה לְכַדּוּר הָאָרֶץ בְּהַצְלָחָה רַבָּה.",
+     "audio": "audio/2026-11-16/b1b72e7f9cd9a30f.mp3"
+    },
+    {
+     "plain": "במהלך המבצע ההיסטורי הצליח המשגר לחזור בדיוק רב אל אתר השיגור שממנו הוא המריא.",
+     "ru": "В ходе исторической операции ракете-носителю удалось с высокой точностью вернуться на стартовую площадку, с которой она взлетела.",
+     "he": "בְּמַהֲלַךְ הַמִּבְצָע הַהִיסְטוֹרִי הִצְלִיחַ הַמְּשַׁגֵּר לַחֲזֹור בְּדִיּוּק רַב אֶל אֲתַר הַשִּׁיגּוּר שֶׁמִּמֶּנּוּ הוּא הִמְרִיא.",
+     "audio": "audio/2026-11-16/c1e61c432846dab7.mp3"
+    },
+    {
+     "plain": "זרועות מכניות מיוחדות המותקנות על מגדל השיגור תפסו את המשגר הגדול בעודו באוויר.",
+     "ru": "Специальные механические манипуляторы, установленные на пусковой башне, поймали большой ускоритель прямо в воздухе.",
+     "he": "זְרוֹעוֹת מֵכָנִיּוֹת מְיֻוחָדוֹת הַמֻּותְקָנוֹת עַל מִגְדַּל הַשִּׁיגּוּר תָּפְסוּ אֶת הַמְּשַׁגֵּר הַגָּדוֹל בְּעוֹדוֹ בָּאֲוִויר.",
+     "audio": "audio/2026-11-16/5598c5c6a10b4eb5.mp3"
+    },
+    {
+     "plain": "מומחים בתחום התעופה והחלל הגדירו את ההישג ההנדסי הזה כאירוע שנראה כמעט כמו קסם.",
+     "ru": "Специалисты в области авиации и космонавтики охарактеризовали это инженерное достижение как событие, выглядящее почти волшебством.",
+     "he": "מֻומְחִים בִּתְחוּם הַתְּעוּפָה וְהֶחָלָל הִגְדִּירוּ אֶת הַהֶישֵּׂג הַהַנְדָּסִי הַזֶּה כְּאֵירוּעַ שֶׁנִּרְאֶה כִּמְעַט כְּמוֹ קֶסֶם.",
+     "audio": "audio/2026-11-16/d40d76889441e4ad.mp3"
+    },
+    {
+     "plain": "שיטה חדשנית זו נועדה לאפשר שימוש חוזר ומהיר בחלליות ללא צורך בשיפוץ ממושך.",
+     "ru": "Этот инновационный метод призван обеспечить быстрое и повторное использование космических кораблей без необходимости длительного ремонта.",
+     "he": "שִׁיטָה חַדְשָׁנִית זוֹ נוֹעֲדָה לְאַפְשֵׁר שִׁימּוּשׁ חוֹזֵר וּמָהִיר בַּחֲלָלִיּוֹת לְלֹא צֹורֶךְ בְּשִׁיפּוּץ מְמֻושָּׁךְ.",
+     "audio": "audio/2026-11-16/be935ba5c64e124a.mp3"
+    },
+    {
+     "plain": "בעבר נהגו חלקי רקטות ליפול לתוך האוקיינוס ולהיהרס לחלוטין לאחר כל שיגור בודד.",
+     "ru": "В прошлом части ракет обычно падали в океан и полностью разрушались после каждого отдельного пуска.",
+     "he": "בֶּעָבָר נָהֲגוּ חֶלְקֵי רָקֵטוֹת לִיפֹּול לְתוֹךְ הָאוֹקְיָינוֹס וּלְהֵיהָרֵס לַחֲלוּטִין לְאַחַר כׇּל שִׁיגּוּר בּוֹדֵד.",
+     "audio": "audio/2026-11-16/6ae167e0890435f0.mp3"
+    },
+    {
+     "plain": "היכולת להנחית משגרים באופן מדויק צפויה להוזיל באופן משמעותי את עלויות המסע לחלל.",
+     "ru": "Способность совершать точную посадку ракет-носителей, как ожидается, существенно снизит затраты на космические полеты.",
+     "he": "הַיְּכֹולֶת לְהַנְחִית מְשַׁגְּרִים בְּאֹופֶן מְדֻויָּק צְפוּיָה לְהוֹזִיל בְּאֹופֶן מַשְׁמָעוּתִי אֶת עֲלוּיוֹת הַמַּסָּע לֶחָלָל.",
+     "audio": "audio/2026-11-16/541e85787ced01e6.mp3"
+    },
+    {
+     "plain": "חברות טכנולוגיה רבות ברחבי העולם עוקבות בעניין רב אחר ההתפתחויות המהירות בתחום זה.",
+     "ru": "Многие технологические компании по всему миру с большим интересом следят за стремительным развитием в этой сфере.",
+     "he": "חֶבְרוֹת טֶכְנוֹלוֹגְיָה רַבּוֹת בְּרַחֲבֵי הָעוֹלָם עוֹקְבוֹת בְּעִנְיָין רַב אַחַר הַהִתְפַּתְּחוּיוֹת הַמְּהִירוֹת בִּתְחוּם זֶה.",
+     "audio": "audio/2026-11-16/290683c7f4011d85.mp3"
+    },
+    {
+     "plain": "ההצלחה הנוכחית מקרבת את האנושות אל היעד השאפתני של טיסות מאוישות למאדים.",
+     "ru": "Нынешний успех приближает человечество к амбициозной цели пилотируемых полетов на Марс.",
+     "he": "הַהַצְלָחָה הַנּוֹכְחִית מְקָרֶבֶת אֶת הָאֱנוֹשׁוּת אֶל הַיַּעַד הַשְּׁאַפְתָּנִי שֶׁל טִיסוֹת מְאֻויָּשׁוֹת לְמַאְדִּים.",
+     "audio": "audio/2026-11-16/1a6a5469c951a4eb.mp3"
+    }
+   ],
+   "glossary": [
+    {
+     "form": "חללית",
+     "lemma": "חללית",
+     "pos": "NOUN",
+     "ru": "космический корабль",
+     "root": "ח-ל-ל",
+     "binyan": "NONE",
+     "lemma_nikud": "חֲלָלִית",
+     "form_nikud": "חֲלָלִית"
+    },
+    {
+     "form": "ענק",
+     "lemma": "ענק",
+     "pos": "ADJECTIVE",
+     "ru": "гигантский",
+     "root": "ע-נ-ק",
+     "binyan": "NONE",
+     "lemma_nikud": "עֲנָק",
+     "form_nikud": ""
+    },
+    {
+     "form": "השלימה",
+     "lemma": "להשלים",
+     "pos": "VERB",
+     "ru": "завершать, дополнять",
+     "root": "ש-ל-ם",
+     "binyan": "HIFIL",
+     "lemma_nikud": "לְהַשְׁלִים",
+     "form_nikud": "הִשְׁלִימָה"
+    },
+    {
+     "form": "ניסוי",
+     "lemma": "ניסוי",
+     "pos": "NOUN",
+     "ru": "эксперимент, испытание",
+     "root": "נ-ס-י",
+     "binyan": "NONE",
+     "lemma_nikud": "נִיסּוּי",
+     "form_nikud": "נִיסּוּי"
+    },
+    {
+     "form": "טיסה",
+     "lemma": "טיסה",
+     "pos": "NOUN",
+     "ru": "полет",
+     "root": "ט-ו-ס",
+     "binyan": "NONE",
+     "lemma_nikud": "טִיסָה",
+     "form_nikud": "טִיסָה"
+    },
+    {
+     "form": "מרשים",
+     "lemma": "מרשים",
+     "pos": "ADJECTIVE",
+     "ru": "впечатляющий",
+     "root": "ר-ש-ם",
+     "binyan": "NONE",
+     "lemma_nikud": "מַרְשִׁים",
+     "form_nikud": "מַרְשִׁים"
+    },
+    {
+     "form": "במיוחד",
+     "lemma": "במיוחד",
+     "pos": "ADVERB",
+     "ru": "особенно",
+     "root": "י-ח-ד",
+     "binyan": "NONE",
+     "lemma_nikud": "בִּמְיֻוחָד",
+     "form_nikud": "בִּמְיֻוחָד"
+    },
+    {
+     "form": "חלל",
+     "lemma": "חלל",
+     "pos": "NOUN",
+     "ru": "космос, пространство",
+     "root": "ח-ל-ל",
+     "binyan": "NONE",
+     "lemma_nikud": "חָלָל",
+     "form_nikud": ""
+    },
+    {
+     "form": "חזרה",
+     "lemma": "לחזור",
+     "pos": "VERB",
+     "ru": "возвращаться",
+     "root": "ח-ז-ר",
+     "binyan": "PAAL",
+     "lemma_nikud": "לַחֲזֹור",
+     "form_nikud": ""
+    },
+    {
+     "form": "כדור הארץ",
+     "lemma": "כדור הארץ",
+     "pos": "NOUN",
+     "ru": "Земля (планета)",
+     "root": "",
+     "binyan": "NONE",
+     "lemma_nikud": "כַּדּוּר הָאָרֶץ",
+     "form_nikud": ""
+    },
+    {
+     "form": "הצלחה",
+     "lemma": "הצלחה",
+     "pos": "NOUN",
+     "ru": "успех",
+     "root": "צ-ל-ח",
+     "binyan": "NONE",
+     "lemma_nikud": "הַצְלָחָה",
+     "form_nikud": ""
+    },
+    {
+     "form": "רבה",
+     "lemma": "רב",
+     "pos": "ADJECTIVE",
+     "ru": "большой, многочисленный",
+     "root": "ר-ב-ב",
+     "binyan": "NONE",
+     "lemma_nikud": "רַב",
+     "form_nikud": "רַבָּה"
+    },
+    {
+     "form": "במהלך",
+     "lemma": "במהלך",
+     "pos": "PREPOSITION",
+     "ru": "в ходе, в течение",
+     "root": "ה-ל-ך",
+     "binyan": "NONE",
+     "lemma_nikud": "בַּמַהֲלַךְ",
+     "form_nikud": "בְּמַהֲלַךְ"
+    },
+    {
+     "form": "מבצע",
+     "lemma": "מבצע",
+     "pos": "NOUN",
+     "ru": "операция, кампания",
+     "root": "ב-צ-ע",
+     "binyan": "NONE",
+     "lemma_nikud": "מִבְצָע",
+     "form_nikud": ""
+    },
+    {
+     "form": "היסטורי",
+     "lemma": "היסטורי",
+     "pos": "ADJECTIVE",
+     "ru": "исторический",
+     "root": "",
+     "binyan": "NONE",
+     "lemma_nikud": "הִיסְטוֹרִיָ",
+     "form_nikud": ""
+    },
+    {
+     "form": "הצליח",
+     "lemma": "להצליח",
+     "pos": "VERB",
+     "ru": "удаваться, иметь успех",
+     "root": "צ-ל-ח",
+     "binyan": "HIFIL",
+     "lemma_nikud": "לְהַצְלִיחַ",
+     "form_nikud": "הִצְלִיחַ"
+    },
+    {
+     "form": "משגר",
+     "lemma": "משגר",
+     "pos": "NOUN",
+     "ru": "ракета-носитель, пусковая установка",
+     "root": "ש-ג-ר",
+     "binyan": "NONE",
+     "lemma_nikud": "מְשַׁגֵּר",
+     "form_nikud": ""
+    },
+    {
+     "form": "לחזור",
+     "lemma": "לחזור",
+     "pos": "VERB",
+     "ru": "возвращаться",
+     "root": "ח-ז-ר",
+     "binyan": "PAAL",
+     "lemma_nikud": "לַחֲזֹור",
+     "form_nikud": "לַחֲזֹור"
+    },
+    {
+     "form": "דיוק",
+     "lemma": "דיוק",
+     "pos": "NOUN",
+     "ru": "точность",
+     "root": "ד-י-ק",
+     "binyan": "NONE",
+     "lemma_nikud": "דִּיּוּק",
+     "form_nikud": ""
+    },
+    {
+     "form": "אתר",
+     "lemma": "אתר",
+     "pos": "NOUN",
+     "ru": "площадка, место, сайт",
+     "root": "א-ת-ר",
+     "binyan": "NONE",
+     "lemma_nikud": "אֲתָר",
+     "form_nikud": "אֲתַר"
+    },
+    {
+     "form": "שיגור",
+     "lemma": "שיגור",
+     "pos": "NOUN",
+     "ru": "запуск, пуск",
+     "root": "ש-ג-ר",
+     "binyan": "NONE",
+     "lemma_nikud": "שִׁיגּוּר",
+     "form_nikud": "שִׁיגּוּר"
+    },
+    {
+     "form": "המריא",
+     "lemma": "להמריא",
+     "pos": "VERB",
+     "ru": "взлетать",
+     "root": "מ-ר-א",
+     "binyan": "HIFIL",
+     "lemma_nikud": "לְהַמְרִיא",
+     "form_nikud": "הִמְרִיא"
+    },
+    {
+     "form": "זרועות",
+     "lemma": "זרוע",
+     "pos": "NOUN",
+     "ru": "рука, манипулятор, рычаг",
+     "root": "ז-ר-ע",
+     "binyan": "NONE",
+     "lemma_nikud": "זְרוֹעַ",
+     "form_nikud": "זְרוֹעוֹת"
+    },
+    {
+     "form": "מכניות",
+     "lemma": "מכני",
+     "pos": "ADJECTIVE",
+     "ru": "механический",
+     "root": "",
+     "binyan": "NONE",
+     "lemma_nikud": "מֵכָנִי",
+     "form_nikud": "מֵכָנִיּוֹת"
+    },
+    {
+     "form": "מיוחדות",
+     "lemma": "מיוחד",
+     "pos": "ADJECTIVE",
+     "ru": "особый, специальный",
+     "root": "י-ח-ד",
+     "binyan": "NONE",
+     "lemma_nikud": "מְיֻוחָד",
+     "form_nikud": "מְיֻוחָדוֹת"
+    },
+    {
+     "form": "מותקנות",
+     "lemma": "מותקן",
+     "pos": "ADJECTIVE",
+     "ru": "установленный",
+     "root": "ת-ק-ן",
+     "binyan": "NONE",
+     "lemma_nikud": "מֻותְקָן",
+     "form_nikud": ""
+    },
+    {
+     "form": "מגדל",
+     "lemma": "מגדל",
+     "pos": "NOUN",
+     "ru": "башня",
+     "root": "ג-ד-ל",
+     "binyan": "NONE",
+     "lemma_nikud": "מִגְדָּל",
+     "form_nikud": "מִגְדַּל"
+    },
+    {
+     "form": "תפסו",
+     "lemma": "לתפוס",
+     "pos": "VERB",
+     "ru": "ловить, схватить",
+     "root": "ת-פ-ס",
+     "binyan": "PAAL",
+     "lemma_nikud": "לִתְפֹּוס",
+     "form_nikud": "תָּפְסוּ"
+    },
+    {
+     "form": "גדול",
+     "lemma": "גדול",
+     "pos": "ADJECTIVE",
+     "ru": "большой",
+     "root": "ג-ד-ל",
+     "binyan": "NONE",
+     "lemma_nikud": "גָּדוֹל",
+     "form_nikud": ""
+    },
+    {
+     "form": "בעודו",
+     "lemma": "בעוד",
+     "pos": "CONJUNCTION",
+     "ru": "пока он, в то время как",
+     "root": "ע-ו-ד",
+     "binyan": "NONE",
+     "lemma_nikud": "בְּעוֹד",
+     "form_nikud": "בְּעוֹדוֹ"
+    },
+    {
+     "form": "אוויר",
+     "lemma": "אוויר",
+     "pos": "NOUN",
+     "ru": "воздух",
+     "root": "",
+     "binyan": "NONE",
+     "lemma_nikud": "אֲוִויר",
+     "form_nikud": ""
+    },
+    {
+     "form": "מומחים",
+     "lemma": "מומחה",
+     "pos": "NOUN",
+     "ru": "эксперт, специалист",
+     "root": "מ-ח-ה",
+     "binyan": "NONE",
+     "lemma_nikud": "מֻומְחֶה",
+     "form_nikud": "מֻומְחִים"
+    },
+    {
+     "form": "תחום",
+     "lemma": "תחום",
+     "pos": "NOUN",
+     "ru": "сфера, область",
+     "root": "ת-ח-ם",
+     "binyan": "NONE",
+     "lemma_nikud": "תְּחוּם",
+     "form_nikud": ""
+    },
+    {
+     "form": "תעופה",
+     "lemma": "תעופה",
+     "pos": "NOUN",
+     "ru": "авиация",
+     "root": "ע-ו-ף",
+     "binyan": "NONE",
+     "lemma_nikud": "תְּעוּפָה",
+     "form_nikud": ""
+    },
+    {
+     "form": "הגדירו",
+     "lemma": "להגדיר",
+     "pos": "VERB",
+     "ru": "определять, охарактеризовать",
+     "root": "ג-ד-ר",
+     "binyan": "HIFIL",
+     "lemma_nikud": "לְהַגְדִּיר",
+     "form_nikud": "הִגְדִּירוּ"
+    },
+    {
+     "form": "הישג",
+     "lemma": "הישג",
+     "pos": "NOUN",
+     "ru": "достижение",
+     "root": "נ-ש-ג",
+     "binyan": "NONE",
+     "lemma_nikud": "הֶישֵּׂג",
+     "form_nikud": ""
+    },
+    {
+     "form": "הנדסי",
+     "lemma": "הנדסי",
+     "pos": "ADJECTIVE",
+     "ru": "инженерный",
+     "root": "ה-נ-ד-ס",
+     "binyan": "NONE",
+     "lemma_nikud": "הֶנְדָּסִי",
+     "form_nikud": ""
+    },
+    {
+     "form": "אירוע",
+     "lemma": "אירוע",
+     "pos": "NOUN",
+     "ru": "событие, мероприятие",
+     "root": "י-ר-ע",
+     "binyan": "NONE",
+     "lemma_nikud": "אֵירוּעַ",
+     "form_nikud": ""
+    },
+    {
+     "form": "נראה",
+     "lemma": "להיראות",
+     "pos": "VERB",
+     "ru": "выглядеть, казаться",
+     "root": "ר-א-ה",
+     "binyan": "NIFAL",
+     "lemma_nikud": "לְהֵירָאוֹת",
+     "form_nikud": ""
+    },
+    {
+     "form": "כמעט",
+     "lemma": "כמעט",
+     "pos": "ADVERB",
+     "ru": "почти",
+     "root": "",
+     "binyan": "NONE",
+     "lemma_nikud": "כִּמְעַט",
+     "form_nikud": "כִּמְעַט"
+    },
+    {
+     "form": "קסם",
+     "lemma": "קסם",
+     "pos": "NOUN",
+     "ru": "волшебство, магия",
+     "root": "ק-ס-ם",
+     "binyan": "NONE",
+     "lemma_nikud": "קֶסֶם",
+     "form_nikud": "קֶסֶם"
+    },
+    {
+     "form": "שיטה",
+     "lemma": "שיטה",
+     "pos": "NOUN",
+     "ru": "метод, система",
+     "root": "ש-ט-ט",
+     "binyan": "NONE",
+     "lemma_nikud": "שִׁיטָה",
+     "form_nikud": "שִׁיטָה"
+    },
+    {
+     "form": "חדשנית",
+     "lemma": "חדשני",
+     "pos": "ADJECTIVE",
+     "ru": "инновационный",
+     "root": "ח-ד-ש",
+     "binyan": "NONE",
+     "lemma_nikud": "חַדְשָׁנִי",
+     "form_nikud": "חַדְשָׁנִית"
+    },
+    {
+     "form": "נועדה",
+     "lemma": "להיוועד",
+     "pos": "VERB",
+     "ru": "предназначаться",
+     "root": "י-ע-ד",
+     "binyan": "NIFAL",
+     "lemma_nikud": "לְהִיוָּועַד",
+     "form_nikud": "נוֹעֲדָה"
+    },
+    {
+     "form": "לאפשר",
+     "lemma": "לאפשר",
+     "pos": "VERB",
+     "ru": "позволять, делать возможным",
+     "root": "א-פ-ש-ר",
+     "binyan": "PIEL",
+     "lemma_nikud": "לְאַפְשֵׁר",
+     "form_nikud": "לְאַפְשֵׁר"
+    },
+    {
+     "form": "שימוש",
+     "lemma": "שימוש",
+     "pos": "NOUN",
+     "ru": "использование",
+     "root": "ש-מ-ש",
+     "binyan": "NONE",
+     "lemma_nikud": "שִׁימּוּשׁ",
+     "form_nikud": "שִׁימּוּשׁ"
+    },
+    {
+     "form": "חוזר",
+     "lemma": "חוזר",
+     "pos": "ADJECTIVE",
+     "ru": "повторный",
+     "root": "ח-ז-ר",
+     "binyan": "NONE",
+     "lemma_nikud": "חוֹזֵר",
+     "form_nikud": "חוֹזֵר"
+    },
+    {
+     "form": "מהיר",
+     "lemma": "מהיר",
+     "pos": "ADJECTIVE",
+     "ru": "быстрый",
+     "root": "מ-ה-ר",
+     "binyan": "NONE",
+     "lemma_nikud": "מָהִיר",
+     "form_nikud": ""
+    },
+    {
+     "form": "ללא",
+     "lemma": "ללא",
+     "pos": "PREPOSITION",
+     "ru": "без",
+     "root": "",
+     "binyan": "NONE",
+     "lemma_nikud": "לְלֹא",
+     "form_nikud": "לְלֹא"
+    },
+    {
+     "form": "צורך",
+     "lemma": "צורך",
+     "pos": "NOUN",
+     "ru": "необходимость, потребность",
+     "root": "צ-ר-ך",
+     "binyan": "NONE",
+     "lemma_nikud": "צֹורֶך",
+     "form_nikud": "צֹורֶךְ"
+    },
+    {
+     "form": "שיפוץ",
+     "lemma": "שיפוץ",
+     "pos": "NOUN",
+     "ru": "ремонт, реконструкция",
+     "root": "ש-פ-ץ",
+     "binyan": "NONE",
+     "lemma_nikud": "שִׁיפּוּץ",
+     "form_nikud": ""
+    },
+    {
+     "form": "ממושך",
+     "lemma": "ממושך",
+     "pos": "ADJECTIVE",
+     "ru": "продолжительный, длительный",
+     "root": "מ-ש-ך",
+     "binyan": "NONE",
+     "lemma_nikud": "מְמֻושָּׁך",
+     "form_nikud": "מְמֻושָּׁךְ"
+    },
+    {
+     "form": "בעבר",
+     "lemma": "בעבר",
+     "pos": "ADVERB",
+     "ru": "в прошлом",
+     "root": "ע-ב-ר",
+     "binyan": "NONE",
+     "lemma_nikud": "בֶּעָבָר",
+     "form_nikud": "בֶּעָבָר"
+    },
+    {
+     "form": "נהגו",
+     "lemma": "לנהוג",
+     "pos": "VERB",
+     "ru": "иметь обыкновение",
+     "root": "נ-ה-ג",
+     "binyan": "PAAL",
+     "lemma_nikud": "לִנְהֹוג",
+     "form_nikud": "נָהֲגוּ"
+    },
+    {
+     "form": "חלקי",
+     "lemma": "חלק",
+     "pos": "NOUN",
+     "ru": "часть, деталь",
+     "root": "ח-ל-ק",
+     "binyan": "NONE",
+     "lemma_nikud": "חֵלֶק",
+     "form_nikud": "חֶלְקֵי"
+    },
+    {
+     "form": "רקטות",
+     "lemma": "רקטה",
+     "pos": "NOUN",
+     "ru": "ракета",
+     "root": "",
+     "binyan": "NONE",
+     "lemma_nikud": "רָקֵטָה",
+     "form_nikud": "רָקֵטוֹת"
+    },
+    {
+     "form": "ליפול",
+     "lemma": "ליפול",
+     "pos": "VERB",
+     "ru": "падать",
+     "root": "נ-פ-ל",
+     "binyan": "PAAL",
+     "lemma_nikud": "לִיפֹּול",
+     "form_nikud": "לִיפֹּול"
+    },
+    {
+     "form": "לתוך",
+     "lemma": "לתוך",
+     "pos": "PREPOSITION",
+     "ru": "внутрь",
+     "root": "ת-ו-ך",
+     "binyan": "NONE",
+     "lemma_nikud": "לְתוֹך",
+     "form_nikud": "לְתוֹךְ"
+    },
+    {
+     "form": "אוקיינוס",
+     "lemma": "אוקיינוס",
+     "pos": "NOUN",
+     "ru": "океан",
+     "root": "",
+     "binyan": "NONE",
+     "lemma_nikud": "אוֹקְיָינוֹס",
+     "form_nikud": ""
+    },
+    {
+     "form": "להיהרס",
+     "lemma": "להיהרס",
+     "pos": "VERB",
+     "ru": "разрушаться",
+     "root": "ה-ר-ס",
+     "binyan": "NIFAL",
+     "lemma_nikud": "לְהֵיהָרֵס",
+     "form_nikud": ""
+    },
+    {
+     "form": "לחלוטין",
+     "lemma": "לחלוטין",
+     "pos": "ADVERB",
+     "ru": "полностью, совершенно",
+     "root": "ח-ל-ט",
+     "binyan": "NONE",
+     "lemma_nikud": "לַחֲלוּטִין",
+     "form_nikud": "לַחֲלוּטִין"
+    },
+    {
+     "form": "לאחר",
+     "lemma": "לאחר",
+     "pos": "PREPOSITION",
+     "ru": "после",
+     "root": "א-ח-ר",
+     "binyan": "NONE",
+     "lemma_nikud": "לְאַחַר",
+     "form_nikud": "לְאַחַר"
+    },
+    {
+     "form": "בודד",
+     "lemma": "בודד",
+     "pos": "ADJECTIVE",
+     "ru": "одиночный, отдельный",
+     "root": "ב-ד-ד",
+     "binyan": "NONE",
+     "lemma_nikud": "בּוֹדֵד",
+     "form_nikud": "בּוֹדֵד"
+    },
+    {
+     "form": "יכולת",
+     "lemma": "יכולת",
+     "pos": "NOUN",
+     "ru": "способность, возможность",
+     "root": "י-כ-ל",
+     "binyan": "NONE",
+     "lemma_nikud": "יְכֹולֶת",
+     "form_nikud": ""
+    },
+    {
+     "form": "להנחית",
+     "lemma": "להנחית",
+     "pos": "VERB",
+     "ru": "сажать, совершать посадку",
+     "root": "נ-ח-ת",
+     "binyan": "HIFIL",
+     "lemma_nikud": "לְהַנְחִית",
+     "form_nikud": "לְהַנְחִית"
+    },
+    {
+     "form": "באופן",
+     "lemma": "באופן",
+     "pos": "PREPOSITION",
+     "ru": "образом (каким-либо)",
+     "root": "א-ו-פ-ן",
+     "binyan": "NONE",
+     "lemma_nikud": "בְּאֹופֶן",
+     "form_nikud": "בְּאֹופֶן"
+    },
+    {
+     "form": "מדויק",
+     "lemma": "מדויק",
+     "pos": "ADJECTIVE",
+     "ru": "точный",
+     "root": "ד-י-ק",
+     "binyan": "NONE",
+     "lemma_nikud": "מְדֻויָּק",
+     "form_nikud": "מְדֻויָּק"
+    },
+    {
+     "form": "צפויה",
+     "lemma": "צפוי",
+     "pos": "ADJECTIVE",
+     "ru": "ожидаемый",
+     "root": "צ-פ-ה",
+     "binyan": "NONE",
+     "lemma_nikud": "צָפוּי",
+     "form_nikud": "צְפוּיָה"
+    },
+    {
+     "form": "להוזיל",
+     "lemma": "להוזיל",
+     "pos": "VERB",
+     "ru": "удешевлять, снижать цену",
+     "root": "ז-ו-ל",
+     "binyan": "HIFIL",
+     "lemma_nikud": "לְהוֹזִיל",
+     "form_nikud": "לְהוֹזִיל"
+    },
+    {
+     "form": "משמעותי",
+     "lemma": "משמעותי",
+     "pos": "ADJECTIVE",
+     "ru": "значительный, существенный",
+     "root": "ש-מ-ע",
+     "binyan": "NONE",
+     "lemma_nikud": "מַשְׁמָעוּתִי",
+     "form_nikud": "מַשְׁמָעוּתִי"
+    },
+    {
+     "form": "עלויות",
+     "lemma": "עלות",
+     "pos": "NOUN",
+     "ru": "стоимость, затраты",
+     "root": "ע-ל-ה",
+     "binyan": "NONE",
+     "lemma_nikud": "עֲלוּת",
+     "form_nikud": "עֲלוּיוֹת"
+    },
+    {
+     "form": "מסע",
+     "lemma": "מסע",
+     "pos": "NOUN",
+     "ru": "путешествие, поход",
+     "root": "נ-ס-ע",
+     "binyan": "NONE",
+     "lemma_nikud": "מַסָּע",
+     "form_nikud": ""
+    },
+    {
+     "form": "חברות",
+     "lemma": "חברה",
+     "pos": "NOUN",
+     "ru": "компания",
+     "root": "ח-ב-ר",
+     "binyan": "NONE",
+     "lemma_nikud": "חֶבְרָה",
+     "form_nikud": "חֶבְרוֹת"
+    },
+    {
+     "form": "טכנולוגיה",
+     "lemma": "טכנולוגיה",
+     "pos": "NOUN",
+     "ru": "технология",
+     "root": "",
+     "binyan": "NONE",
+     "lemma_nikud": "טֶכְנוֹלוֹגְיָה",
+     "form_nikud": "טֶכְנוֹלוֹגְיָה"
+    },
+    {
+     "form": "רחבי",
+     "lemma": "רחבי",
+     "pos": "NOUN",
+     "ru": "просторы, пределы",
+     "root": "ר-ח-ב",
+     "binyan": "NONE",
+     "lemma_nikud": "רְחָבִי",
+     "form_nikud": ""
+    },
+    {
+     "form": "עולם",
+     "lemma": "עולם",
+     "pos": "NOUN",
+     "ru": "мир",
+     "root": "ע-ל-ם",
+     "binyan": "NONE",
+     "lemma_nikud": "עוֹלָם",
+     "form_nikud": ""
+    },
+    {
+     "form": "עוקבות",
+     "lemma": "לעקוב",
+     "pos": "VERB",
+     "ru": "следить, наблюдать",
+     "root": "ע-ק-ב",
+     "binyan": "PAAL",
+     "lemma_nikud": "לַעֲקֹוב",
+     "form_nikud": "עוֹקְבוֹת"
+    },
+    {
+     "form": "עניין",
+     "lemma": "עניין",
+     "pos": "NOUN",
+     "ru": "интерес, дело",
+     "root": "ע-נ-י",
+     "binyan": "NONE",
+     "lemma_nikud": "עִנְיָין",
+     "form_nikud": ""
+    },
+    {
+     "form": "התפתחויות",
+     "lemma": "התפתחות",
+     "pos": "NOUN",
+     "ru": "развитие, разработка",
+     "root": "פ-ת-ח",
+     "binyan": "NONE",
+     "lemma_nikud": "הִתְפַּתְּחוּת",
+     "form_nikud": ""
+    },
+    {
+     "form": "נוכחית",
+     "lemma": "נוכחי",
+     "pos": "ADJECTIVE",
+     "ru": "нынешний, текущий",
+     "root": "נ-כ-ח",
+     "binyan": "NONE",
+     "lemma_nikud": "נוֹכְחִי",
+     "form_nikud": ""
+    },
+    {
+     "form": "מקרבת",
+     "lemma": "לקרב",
+     "pos": "VERB",
+     "ru": "приближать",
+     "root": "ק-ר-ב",
+     "binyan": "PIEL",
+     "lemma_nikud": "לַקְּרָב",
+     "form_nikud": "מְקָרֶבֶת"
+    },
+    {
+     "form": "אנושות",
+     "lemma": "אנושות",
+     "pos": "NOUN",
+     "ru": "человечество",
+     "root": "א-נ-ש",
+     "binyan": "NONE",
+     "lemma_nikud": "אֱנוֹשׁוּת",
+     "form_nikud": ""
+    },
+    {
+     "form": "יעד",
+     "lemma": "יעד",
+     "pos": "NOUN",
+     "ru": "цель, пункт назначения",
+     "root": "י-ע-ד",
+     "binyan": "NONE",
+     "lemma_nikud": "יַעַד",
+     "form_nikud": ""
+    },
+    {
+     "form": "שאפתני",
+     "lemma": "שאפתני",
+     "pos": "ADJECTIVE",
+     "ru": "амбициозный",
+     "root": "ש-א-ף",
+     "binyan": "NONE",
+     "lemma_nikud": "שְׁאַפְתָּנִי",
+     "form_nikud": ""
+    },
+    {
+     "form": "מאוישות",
+     "lemma": "מאויש",
+     "pos": "ADJECTIVE",
+     "ru": "пилотируемый",
+     "root": "א-י-ש",
+     "binyan": "NONE",
+     "lemma_nikud": "מְאֻויָּשׁ",
+     "form_nikud": "מְאֻויָּשׁוֹת"
+    },
+    {
+     "form": "מאדים",
+     "lemma": "מאדים",
+     "pos": "PROPER_NOUN",
+     "ru": "Марс",
+     "root": "א-ד-ם",
+     "binyan": "NONE",
+     "lemma_nikud": "מַאְדִּים",
+     "form_nikud": ""
+    }
+   ],
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/STS-125_Atlantis_Liftoff_02.jpg/960px-STS-125_Atlantis_Liftoff_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "author": "Scott Andrews, Canon",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:STS-125_Atlantis_Liftoff_02.jpg"
+   },
+   "sources": [
+    {
+     "title": "\"כמעט קסם\": חללית סטארשיפ חזרה מהמסלול ונלכדה במגדל השיגור | צפו",
+     "outlet": "mako",
+     "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE4xNVUwWFpqUm1OUHhfa2RtVzdKNDBhTkJmekVmTzk3V2VRb0hwWW90cXlsTU5WSjJOYTdnSkJPZEs2SzcyV2ZyT3YwZkNvVVNWR3ZHd28tNTJxbjNCV19FMEtCaGFoazRCZFc5VkVjRHhJOUVFZW80SVhnOHA?oc=5"
+    }
+   ],
+   "title_he": "הֶישֵּׂג הִיסְטוֹרִי בֶּחָלָל: חֲלָלִית סְטַארְשִׁיפּ נִלְכְּדָה בְּמִגְדַּל הַשִּׁיגּוּר"
+  },
+  {
+   "id": "2026-11-16-culture",
+   "date": "2026-11-16",
+   "category": "Культура",
+   "level": 1,
+   "cefr": "A1–A2",
+   "title_ru": "Новый сезон телешоу «Ха-Кохав ха-Ба»",
+   "title_plain": "עונה חדשה של \"הכוכב הבא\" בטלוויזיה",
+   "sentences": [
+    {
+     "plain": "תוכנית מוזיקה מפורסמת מתחילה עונה חדשה בטלוויזיה.",
+     "ru": "Известная музыкальная программа начинает новый сезон на телевидении.",
+     "he": "תׇּוכְנִית מוּזִיקָה מְפֻורְסֶמֶת מַתְחִילָה עוֹנָה חֲדָשָׁה בַּטֵּלֵוִויזְיָה.",
+     "audio": "audio/2026-11-16/e81ee6bf626770c2.mp3"
+    },
+    {
+     "plain": "זמרים שרים שירים יפים על הבמה.",
+     "ru": "Певцы поют красивые песни на сцене.",
+     "he": "זַמָּרִים שָׁרִים שִׁירִים יָפִים עַל הַבָּמָה.",
+     "audio": "audio/2026-11-16/7a7e8da4c06b4ba2.mp3"
+    },
+    {
+     "plain": "אנשים רבים רואים את התוכנית בבית.",
+     "ru": "Многие люди смотрят передачу дома.",
+     "he": "אֲנָשִׁים רַבִּים רוֹאִים אֶת הַתׇּוכְנִית בַּבַּיִת.",
+     "audio": "audio/2026-11-16/34bb9663f971e67f.mp3"
+    },
+    {
+     "plain": "המנצח בתחרות נוסע לשיר באירוויזיון.",
+     "ru": "Победитель конкурса поедет петь на Евровидении.",
+     "he": "הַמְּנַצֵּחַ בַּתַּחֲרוּת נוֹסֵעַ לָשִׁיר בָּאֵירוֹוִיזְיוֹן.",
+     "audio": "audio/2026-11-16/51d0a7d0f38c6814.mp3"
+    },
+    {
+     "plain": "כולם שמחים ומתרגשים מאוד.",
+     "ru": "Все очень рады и взволнованы.",
+     "he": "כֻּולָּם שְׂמֵחִים וּמִתְרַגְּשִׁים מְאוֹד.",
+     "audio": "audio/2026-11-16/b6fb8a6ef1a57b95.mp3"
+    }
+   ],
+   "glossary": [
+    {
+     "form": "תוכנית",
+     "lemma": "תוכנית",
+     "pos": "NOUN",
+     "ru": "программа, передача",
+     "root": "ת-כ-נ",
+     "binyan": "NONE",
+     "lemma_nikud": "תׇּוכְנִית",
+     "form_nikud": "תׇּוכְנִית"
+    },
+    {
+     "form": "מוזיקה",
+     "lemma": "מוזיקה",
+     "pos": "NOUN",
+     "ru": "музыка",
+     "root": "",
+     "binyan": "NONE",
+     "lemma_nikud": "מוּזִיקָה",
+     "form_nikud": "מוּזִיקָה"
+    },
+    {
+     "form": "מפורסמת",
+     "lemma": "מפורסם",
+     "pos": "ADJECTIVE",
+     "ru": "известный",
+     "root": "פ-ר-ס-ם",
+     "binyan": "NONE",
+     "lemma_nikud": "מְפֻורְסָם",
+     "form_nikud": "מְפֻורְסֶמֶת"
+    },
+    {
+     "form": "מתחילה",
+     "lemma": "להתחיל",
+     "pos": "VERB",
+     "ru": "начинать",
+     "root": "ת-ח-ל",
+     "binyan": "HIFIL",
+     "lemma_nikud": "לְהַתְחִיל",
+     "form_nikud": "מַתְחִילָה"
+    },
+    {
+     "form": "עונה",
+     "lemma": "עונה",
+     "pos": "NOUN",
+     "ru": "сезон",
+     "root": "ע-ו-נ",
+     "binyan": "NONE",
+     "lemma_nikud": "עוֹנָה",
+     "form_nikud": "עוֹנָה"
+    },
+    {
+     "form": "חדשה",
+     "lemma": "חדש",
+     "pos": "ADJECTIVE",
+     "ru": "новый",
+     "root": "ח-ד-ש",
+     "binyan": "NONE",
+     "lemma_nikud": "חָדָשׁ",
+     "form_nikud": "חֲדָשָׁה"
+    },
+    {
+     "form": "טלוויזיה",
+     "lemma": "טלוויזיה",
+     "pos": "NOUN",
+     "ru": "телевидение",
+     "root": "",
+     "binyan": "NONE",
+     "lemma_nikud": "טֵלֵוִויזְיָה",
+     "form_nikud": ""
+    },
+    {
+     "form": "זמרים",
+     "lemma": "זמר",
+     "pos": "NOUN",
+     "ru": "певец",
+     "root": "ז-מ-ר",
+     "binyan": "NONE",
+     "lemma_nikud": "זֶמָּר",
+     "form_nikud": "זַמָּרִים"
+    },
+    {
+     "form": "שרים",
+     "lemma": "לשיר",
+     "pos": "VERB",
+     "ru": "петь",
+     "root": "ש-י-ר",
+     "binyan": "PAAL",
+     "lemma_nikud": "לָשִׁיר",
+     "form_nikud": "שָׁרִים"
+    },
+    {
+     "form": "שירים",
+     "lemma": "שיר",
+     "pos": "NOUN",
+     "ru": "песня",
+     "root": "ש-י-ר",
+     "binyan": "NONE",
+     "lemma_nikud": "שִׁיר",
+     "form_nikud": "שִׁירִים"
+    },
+    {
+     "form": "יפים",
+     "lemma": "יפה",
+     "pos": "ADJECTIVE",
+     "ru": "красивый",
+     "root": "י-פ-ה",
+     "binyan": "NONE",
+     "lemma_nikud": "יָפֶה",
+     "form_nikud": "יָפִים"
+    },
+    {
+     "form": "במה",
+     "lemma": "במה",
+     "pos": "NOUN",
+     "ru": "сцена",
+     "root": "ב-ו-ם",
+     "binyan": "NONE",
+     "lemma_nikud": "בָּמָה",
+     "form_nikud": ""
+    },
+    {
+     "form": "אנשים",
+     "lemma": "איש",
+     "pos": "NOUN",
+     "ru": "люди, человек",
+     "root": "א-נ-ש",
+     "binyan": "NONE",
+     "lemma_nikud": "אִישׁ",
+     "form_nikud": "אֲנָשִׁים"
+    },
+    {
+     "form": "רבים",
+     "lemma": "רב",
+     "pos": "ADJECTIVE",
+     "ru": "многие, многочисленный",
+     "root": "ר-ב-ב",
+     "binyan": "NONE",
+     "lemma_nikud": "רַב",
+     "form_nikud": "רַבִּים"
+    },
+    {
+     "form": "רואים",
+     "lemma": "לראות",
+     "pos": "VERB",
+     "ru": "видеть, смотреть",
+     "root": "ר-א-ה",
+     "binyan": "PAAL",
+     "lemma_nikud": "לִרְאוֹת",
+     "form_nikud": "רוֹאִים"
+    },
+    {
+     "form": "בית",
+     "lemma": "בית",
+     "pos": "NOUN",
+     "ru": "дом",
+     "root": "ב-י-ת",
+     "binyan": "NONE",
+     "lemma_nikud": "בַּיִת",
+     "form_nikud": ""
+    },
+    {
+     "form": "מנצח",
+     "lemma": "מנצח",
+     "pos": "NOUN",
+     "ru": "победитель",
+     "root": "נ-צ-ח",
+     "binyan": "NONE",
+     "lemma_nikud": "מְנַצֵּחַ",
+     "form_nikud": ""
+    },
+    {
+     "form": "תחרות",
+     "lemma": "תחרות",
+     "pos": "NOUN",
+     "ru": "конкурс, соревнование",
+     "root": "ת-ח-ר",
+     "binyan": "NONE",
+     "lemma_nikud": "תַּחֲרוּת",
+     "form_nikud": ""
+    },
+    {
+     "form": "נוסע",
+     "lemma": "לנסוע",
+     "pos": "VERB",
+     "ru": "ехать",
+     "root": "נ-ס-ע",
+     "binyan": "PAAL",
+     "lemma_nikud": "לִנְסֹועַ",
+     "form_nikud": "נוֹסֵעַ"
+    },
+    {
+     "form": "כולם",
+     "lemma": "כולם",
+     "pos": "PRONOUN",
+     "ru": "все",
+     "root": "כ-ל-ל",
+     "binyan": "NONE",
+     "lemma_nikud": "כֻּולָּם",
+     "form_nikud": "כֻּולָּם"
+    },
+    {
+     "form": "שמחים",
+     "lemma": "שמח",
+     "pos": "ADJECTIVE",
+     "ru": "радостный",
+     "root": "ש-מ-ח",
+     "binyan": "NONE",
+     "lemma_nikud": "שָׂמֵחַ",
+     "form_nikud": "שְׂמֵחִים"
+    },
+    {
+     "form": "מתרגשים",
+     "lemma": "להתרגש",
+     "pos": "VERB",
+     "ru": "волноваться, радоваться",
+     "root": "ר-ג-ש",
+     "binyan": "HITPAEL",
+     "lemma_nikud": "לְהִתְרַגֵּשׁ",
+     "form_nikud": ""
+    },
+    {
+     "form": "מאוד",
+     "lemma": "מאוד",
+     "pos": "ADVERB",
+     "ru": "очень",
+     "root": "א-ו-ד",
+     "binyan": "NONE",
+     "lemma_nikud": "מְאוֹד",
+     "form_nikud": "מְאוֹד"
+    }
+   ],
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Sunset_over_Paljassaare_Outdoor_Concert_Stage_Tallinn_Cruise_Terminal_Tallinn_27_August_2022.jpg/960px-Sunset_over_Paljassaare_Outdoor_Concert_Stage_Tallinn_Cruise_Terminal_Tallinn_27_August_2022.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "author": "Pjotr Mahhonin",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Sunset_over_Paljassaare_Outdoor_Concert_Stage_Tallinn_Cruise_Terminal_Tallinn_27_August_2022.jpg"
+   },
+   "sources": [
+    {
+     "title": "דרמה ענקית בכוכב הבא לאירוויזיון: העונה נפתחה, שיטת הניקוד טרפה את הקלפים - וזה מי שעבר!",
+     "outlet": "EuroMix",
+     "url": "https://news.google.com/rss/articles/CBMizwJBVV95cUxQOVlZWHhKdVpFdURWTzNyVEdhcmFfR3VGV0R6Smk3OVk0eEsxb1lvQjhrMFg4MG9MbnE2MldxT0tYRUdhNWlQdWhwemRkY3B2RmpFbnR3UTVJM0FPR1dNYUMzeHVPR1EtMnNoOVVvYzRkc2FRNjRySUY2WE9xdFlDMkdKbVctMDFXcWFJWlJpZjg1NUloWmpBeFI2d3h1WFZvaGhiRF9Vd1FYS2RvaXFvVFNJSDgtb255UEdKVDVwV0hoNWV6enpmTkFtdFltb0xvR2lkTF9RbjJtOFNoemVqSnBNNzA0NTA4Y1VDNVI3SUt5bDJQcGhlTFlJZXB2d2p0UDBaQTdhR21tZHh5VHZ0a1IzMTNZOTJJMDZxdHVkbjd0STJob21OSGtYNFVoVTJMdmtsRnVVY1MtVzI2b29Kcl84R1VHWlAteWJJZmNqbw?oc=5"
+    }
+   ],
+   "title_he": "עוֹנָה חֲדָשָׁה שֶׁל \"הַכּוֹכָב הַבָּא\" בַּטֵּלֵוִויזְיָה"
+  },
   {
    "id": "2026-11-15-society",
    "date": "2026-11-15",
