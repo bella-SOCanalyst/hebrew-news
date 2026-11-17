@@ -18,6 +18,15 @@ class LevelsTest(unittest.TestCase):
             self.assertEqual(seen, {1, 2, 3})
 
 
+class LengthTest(unittest.TestCase):
+    def test_count_words_skips_punctuation(self):
+        self.assertEqual(p.count_words([{"plain": "שלום עולם , היום - יום יפה."}, {"plain": "כן"}]), 6)
+
+    def test_prompt_demands_min_words(self):
+        prompt = p.prompt_for("Общество", 1, [{"title": "כותרת", "source": "ynet"}])
+        self.assertIn(str(p.MIN_WORDS), prompt)
+
+
 class RssTest(unittest.TestCase):
     def test_source_suffix_removed(self):
         xml = """<rss><channel>

@@ -62,16 +62,19 @@ CATEGORIES = [
 # Запасной поиск, если раздел Google Новостей недоступен.
 SEARCH = {"NATION": "ישראל חברה", "TECHNOLOGY": "טכנולוגיה", "ENTERTAINMENT": "תרבות"}
 
+# Минимальная длина текста в словах иврита (для всех уровней).
+MIN_WORDS = 200
+
 LEVELS = {
     1: dict(name="алеф", cefr="A1–A2", spec=(
-        "Level ALEF (absolute beginner, ulpan alef): 4–6 very short sentences (5–8 words each). "
+        "Level ALEF (absolute beginner, ulpan alef): 26–32 short sentences (6–9 words each). "
         "Only the most frequent ~1000 words. Mostly present tense, simple subject–verb–object. "
         "No idioms, no construct chains (smichut) except very common ones, no passive.")),
     2: dict(name="бет", cefr="A2–B1", spec=(
-        "Level BET (ulpan bet): 6–8 sentences (7–12 words each). Common vocabulary, past and future tense "
+        "Level BET (ulpan bet): 20–24 sentences (8–12 words each). Common vocabulary, past and future tense "
         "allowed, simple connectors (כי, אבל, לכן, ש־). Avoid rare words and long smichut chains.")),
     3: dict(name="гимель", cefr="B1–B2", spec=(
-        "Level GIMEL (ulpan gimel): 8–10 sentences (10–16 words each). Natural newspaper style, "
+        "Level GIMEL (ulpan gimel): 16–20 sentences (11–16 words each). Natural newspaper style, "
         "smichut, relative clauses, all tenses and binyanim, typical news vocabulary.")),
 }
 
@@ -135,7 +138,20 @@ def parse_rss(xml_text: str, limit: int = 12) -> list[dict]:
         if source and title.endswith(" - " + source):
             title = title[: -len(" - " + source)]
         if title:
-            out.append({"title": html.unescape(title), "source": source, "link": link})
+            out.append({"title": html.unescape(title), "source": source, "link": link,
+                        "related": related_headlines(item.findtext("description") or "", title)})
+        if len(out) >= limit:
+            break
+    return out
+
+
+def related_headlines(description_html: str, main_title: str, limit: int = 5) -> list[str]:
+    """В описании элемента Google Новостей — заголовки других изданий о том же событии: больше фактов."""
+    out = []
+    for m in re.finditer(r"<a [^>]*>(.*?)</a>", html.unescape(description_html), re.S):
+        t = html.unescape(re.sub(r"<[^>]+>", "", m.group(1))).strip()
+        if t and t != main_title and t not in out:
+            out.append(t)
         if len(out) >= limit:
             break
     return out
@@ -177,10 +193,13 @@ ARTICLE_SCHEMA = {
 
 def prompt_for(category_ru: str, level: int, heads: list[dict]) -> str:
     lv = LEVELS[level]
-    lines = "\n".join(f"{i}. {h['title']} ({h['source']})" for i, h in enumerate(heads))
-    return f"""You write short ORIGINAL news texts in Hebrew for Russian-speaking adult learners of Hebrew.
+    def head_line(i: int, h: dict) -> str:
+        rel = "".join(f"\n     · {r}" for r in h.get("related", []))
+        return f"{i}. {h['title']} ({h['source']}){rel}"
+    lines = "\n".join(head_line(i, h) for i, h in enumerate(heads))
+    return f"""You write ORIGINAL news texts in Hebrew for Russian-speaking adult learners of Hebrew.
 
-Topic: {category_ru}. Today's Israeli headlines (facts only):
+Topic: {category_ru}. Today's Israeli headlines (facts only; lines with · are other outlets' headlines about the same story):
 {lines}
 
 1. Choose ONE headline (chosen_index) that suits learners: prefer neutral or positive, everyday,
@@ -188,6 +207,10 @@ Topic: {category_ru}. Today's Israeli headlines (facts only):
 2. Write the story in YOUR OWN WORDS — do not reproduce any outlet's wording. Use only facts from the
    headlines plus widely known background; do not invent names, numbers, quotes or details.
 3. {lv['spec']}
+   Structure: what happened (facts from the headlines) → background a learner needs to understand it
+   (what the place / organization / phenomenon is — only well-known general facts) → why it matters
+   for everyday life in Israel. Reach the required length with this context, never with invented details.
+   LENGTH IS MANDATORY: the whole text must have at least {MIN_WORDS} Hebrew words (aim for {MIN_WORDS + 30}).
 4. Spelling: modern Israeli full spelling (כתיב מלא) WITHOUT nikud, like a newspaper.
 5. title_he: short Hebrew headline (no nikud). title_ru: natural Russian headline.
 6. sentences: each Hebrew sentence with an accurate natural Russian translation.
@@ -347,12 +370,30 @@ def synthesize(api_key: str, text: str) -> bytes:
 
 # ---------------------------------------------------------------- сборка выпуска
 
+def count_words(sentences: list[dict]) -> int:
+    """Число слов иврита в тексте (токены, где есть хотя бы одна буква)."""
+    return sum(1 for s in sentences for t in s["plain"].split() if words_plain(t))
+
+
 def make_item(day: dt.date, key: str, cat_ru: str, topic: str, level: int, gemini_key: str) -> dict | None:
     heads = headlines(topic)
     if not heads:
         print(f"[{cat_ru}] нет заголовков", flush=True)
         return None
-    art = gemini(gemini_key, prompt_for(cat_ru, level, heads), ARTICLE_SCHEMA)
+    prompt = prompt_for(cat_ru, level, heads)
+    art = gemini(gemini_key, prompt, ARTICLE_SCHEMA)
+    # Модели часто пишут короче, чем просили: если меньше MIN_WORDS — один повтор с указанием длины.
+    n = count_words([{"plain": clean_hebrew(s.get("he", ""))} for s in art.get("sentences", [])])
+    if n < MIN_WORDS:
+        print(f"[{cat_ru}] текст {n} слов < {MIN_WORDS} — прошу длиннее", flush=True)
+        retry = gemini(gemini_key, prompt + (
+            f"\nIMPORTANT: a previous draft had only {n} words — far too short. Write the same story again with "
+            f"at least {MIN_WORDS + 40} Hebrew words: add more background and context, keep the level's sentence length.\n"
+        ), ARTICLE_SCHEMA)
+        n2 = count_words([{"plain": clean_hebrew(s.get("he", ""))} for s in retry.get("sentences", [])])
+        if n2 > n:
+            art, n = retry, n2
+    print(f"[{cat_ru}] длина: {n} слов", flush=True)
     chosen = heads[min(max(art.get("chosen_index", 0), 0), len(heads) - 1)]
     sentences = [{"plain": clean_hebrew(s["he"]), "ru": s["ru"].strip()} for s in art["sentences"] if s.get("he")]
     image = None
