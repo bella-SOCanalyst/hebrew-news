@@ -1,0 +1,75 @@
+{
+ "pos": [
+  "DET",
+  "NOUN",
+  "VERB",
+  "CCONJ",
+  "ADP",
+  "PRON",
+  "PUNCT",
+  "ADJ",
+  "ADV",
+  "SCONJ",
+  "NUM",
+  "PROPN",
+  "AUX",
+  "X",
+  "INTJ",
+  "SYM"
+ ],
+ "prefix": [
+  "SCONJ",
+  "DET",
+  "ADV",
+  "CCONJ",
+  "ADP",
+  "NUM"
+ ],
+ "suffix": [
+  "none",
+  "ADP_PRON",
+  "PRON"
+ ],
+ "features": [
+  [
+   "Gender",
+   [
+    "none",
+    "Masc",
+    "Fem",
+    "Fem,Masc"
+   ]
+  ],
+  [
+   "Number",
+   [
+    "none",
+    "Sing",
+    "Plur",
+    "Plur,Sing",
+    "Dual",
+    "Dual,Plur"
+   ]
+  ],
+  [
+   "Person",
+   [
+    "none",
+    "1",
+    "2",
+    "3",
+    "1,2,3"
+   ]
+  ],
+  [
+   "Tense",
+   [
+    "none",
+    "Past",
+    "Fut",
+    "Pres",
+    "Imp"
+   ]
+  ]
+ ]
+}

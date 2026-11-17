@@ -1,0 +1,7 @@
+normalizer: {"type": "Sequence", "normalizers": [{"type": "NFD"}, {"type": "Lowercase"}, {"type": "StripAccents"}, {"type": "Replace", "pattern": {"String": "<foreign>"}, "content": "[UNK]"}, {"type": "Replace", "pattern": {"Regex": "[^֐-׿\u0000-‌-‿₠-₿∀-⋿⅐-↋ﬀ-ﭏ]+"}, "content": "[UNK]"}]}
+pre_tokenizer: {'type': 'Split', 'behavior': 'Removed', 'invert': True}
+tokenizer: 69/69 sentences identical
+onnx fp32: 339 MB
+onnx int8: 85 MB
+words 744: pos 0.993, feats 0.983, prefixes 0.993, lex 0.972
+done

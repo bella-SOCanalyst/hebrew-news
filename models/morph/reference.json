@@ -1,0 +1,940 @@
+[
+ {
+  "text": "בשנת 1948 השלים אפרים קישון את לימודיו בפיסול מתכת ובתולדות האמנות",
+  "tokens": [
+   {
+    "token": "בשנת",
+    "offsets": {
+     "start": 0,
+     "end": 4
+    },
+    "lex": "שנה",
+    "morph": {
+     "token": "בשנת",
+     "pos": "NOUN",
+     "feats": {
+      "Gender": "Fem",
+      "Number": "Sing"
+     },
+     "prefixes": [
+      "ADP"
+     ],
+     "suffix": false
+    }
+   },
+   {
+    "token": "1948",
+    "offsets": {
+     "start": 5,
+     "end": 9
+    },
+    "lex": "1948",
+    "morph": {
+     "token": "1948",
+     "pos": "NUM",
+     "feats": {},
+     "prefixes": [],
+     "suffix": false
+    }
+   },
+   {
+    "token": "השלים",
+    "offsets": {
+     "start": 10,
+     "end": 15
+    },
+    "lex": "השלים",
+    "morph": {
+     "token": "השלים",
+     "pos": "VERB",
+     "feats": {
+      "Gender": "Masc",
+      "Number": "Sing",
+      "Person": "3",
+      "Tense": "Past"
+     },
+     "prefixes": [],
+     "suffix": false
+    }
+   },
+   {
+    "token": "אפרים",
+    "offsets": {
+     "start": 16,
+     "end": 21
+    },
+    "lex": "אפרים",
+    "morph": {
+     "token": "אפרים",
+     "pos": "PROPN",
+     "feats": {},
+     "prefixes": [],
+     "suffix": false
+    }
+   },
+   {
+    "token": "קישון",
+    "offsets": {
+     "start": 22,
+     "end": 27
+    },
+    "lex": "קישון",
+    "morph": {
+     "token": "קישון",
+     "pos": "PROPN",
+     "feats": {},
+     "prefixes": [],
+     "suffix": false
+    }
+   },
+   {
+    "token": "את",
+    "offsets": {
+     "start": 28,
+     "end": 30
+    },
+    "lex": "את",
+    "morph": {
+     "token": "את",
+     "pos": "ADP",
+     "feats": {},
+     "prefixes": [],
+     "suffix": false
+    }
+   },
+   {
+    "token": "לימודיו",
+    "offsets": {
+     "start": 31,
+     "end": 38
+    },
+    "lex": "לימוד",
+    "morph": {
+     "token": "לימודיו",
+     "pos": "NOUN",
+     "feats": {
+      "Gender": "Masc",
+      "Number": "Plur"
+     },
+     "prefixes": [],
+     "suffix": "PRON",
+     "suffix_feats": {
+      "Gender": "Masc",
+      "Number": "Sing",
+      "Person": "3"
+     }
+    }
+   },
+   {
+    "token": "בפיסול",
+    "offsets": {
+     "start": 39,
+     "end": 45
+    },
+    "lex": "פיסול",
+    "morph": {
+     "token": "בפיסול",
+     "pos": "NOUN",
+     "feats": {
+      "Gender": "Masc",
+      "Number": "Sing"
+     },
+     "prefixes": [
+      "ADP"
+     ],
+     "suffix": false
+    }
+   },
+   {
+    "token": "מתכת",
+    "offsets": {
+     "start": 46,
+     "end": 50
+    },
+    "lex": "מתכת",
+    "morph": {
+     "token": "מתכת",
+     "pos": "NOUN",
+     "feats": {
+      "Gender": "Fem",
+      "Number": "Sing"
+     },
+     "prefixes": [],
+     "suffix": false
+    }
+   },
+   {
+    "token": "ובתולדות",
+    "offsets": {
+     "start": 51,
+     "end": 59
+    },
+    "lex": "תולדה",
+    "morph": {
+     "token": "ובתולדות",
+     "pos": "NOUN",
+     "feats": {
+      "Gender": "Fem",
+      "Number": "Plur"
+     },
+     "prefixes": [
+      "CCONJ",
+      "ADP"
+     ],
+     "suffix": false
+    }
+   },
+   {
+    "token": "האמנות",
+    "offsets": {
+     "start": 60,
+     "end": 66
+    },
+    "lex": "אומנות",
+    "morph": {
+     "token": "האמנות",
+     "pos": "NOUN",
+     "feats": {
+      "Gender": "Fem",
+      "Number": "Sing"
+     },
+     "prefixes": [
+      "DET"
+     ],
+     "suffix": false
+    }
+   }
+  ]
+ },
+ {
+  "text": "היא לא ידעה מה לומר אז היא שתקה.",
+  "tokens": [
+   {
+    "token": "היא",
+    "offsets": {
+     "start": 0,
+     "end": 3
+    },
+    "lex": "הוא",
+    "morph": {
+     "token": "היא",
+     "pos": "PRON",
+     "feats": {
+      "Gender": "Fem",
+      "Number": "Sing",
+      "Person": "3"
+     },
+     "prefixes": [],
+     "suffix": false
+    }
+   },
+   {
+    "token": "לא",
+    "offsets": {
+     "start": 4,
+     "end": 6
+    },
+    "lex": "לא",
+    "morph": {
+     "token": "לא",
+     "pos": "ADV",
+     "feats": {},
+     "prefixes": [],
+     "suffix": false
+    }
+   },
+   {
+    "token": "ידעה",
+    "offsets": {
+     "start": 7,
+     "end": 11
+    },
+    "lex": "ידעה",
+    "morph": {
+     "token": "ידעה",
+     "pos": "VERB",
+     "feats": {
+      "Gender": "Fem",
+      "Number": "Sing",
+      "Person": "3",
+      "Tense": "Past"
+     },
+     "prefixes": [],
+     "suffix": false
+    }
+   },
+   {
+    "token": "מה",
+    "offsets": {
+     "start": 12,
+     "end": 14
+    },
+    "lex": "מה",
+    "morph": {
+     "token": "מה",
+     "pos": "ADV",
+     "feats": {},
+     "prefixes": [],
+     "suffix": false
+    }
+   },
+   {
+    "token": "לומר",
+    "offsets": {
+     "start": 15,
+     "end": 19
+    },
+    "lex": "אמר",
+    "morph": {
+     "token": "לומר",
+     "pos": "VERB",
+     "feats": {},
+     "prefixes": [],
+     "suffix": false
+    }
+   },
+   {
+    "token": "אז",
+    "offsets": {
+     "start": 20,
+     "end": 22
+    },
+    "lex": "אז",
+    "morph": {
+     "token": "אז",
+     "pos": "ADV",
+     "feats": {},
+     "prefixes": [],
+     "suffix": false
+    }
+   },
+   {
+    "token": "היא",
+    "offsets": {
+     "start": 23,
+     "end": 26
+    },
+    "lex": "הוא",
+    "morph": {
+     "token": "היא",
+     "pos": "PRON",
+     "feats": {
+      "Gender": "Fem",
+      "Number": "Sing",
+      "Person": "3"
+     },
+     "prefixes": [],
+     "suffix": false
+    }
+   },
+   {
+    "token": "שתקה",
+    "offsets": {
+     "start": 27,
+     "end": 31
+    },
+    "lex": "שתק",
+    "morph": {
+     "token": "שתקה",
+     "pos": "VERB",
+     "feats": {
+      "Gender": "Fem",
+      "Number": "Sing",
+      "Person": "3",
+      "Tense": "Past"
+     },
+     "prefixes": [],
+     "suffix": false
+    }
+   },
+   {
+    "token": ".",
+    "offsets": {
+     "start": 31,
+     "end": 32
+    },
+    "lex": ".",
+    "morph": {
+     "token": ".",
+     "pos": "PUNCT",
+     "feats": {},
+     "prefixes": [],
+     "suffix": false
+    }
+   }
+  ]
+ },
+ {
+  "text": "סגרי את הדלת, בבקשה!",
+  "tokens": [
+   {
+    "token": "סגרי",
+    "offsets": {
+     "start": 0,
+     "end": 4
+    },
+    "lex": "סגר",
+    "morph": {
+     "token": "סגרי",
+     "pos": "VERB",
+     "feats": {
+      "Gender": "Masc",
+      "Number": "Plur",
+      "Person": "2",
+      "Tense": "Past"
+     },
+     "prefixes": [],
+     "suffix": false
+    }
+   },
+   {
+    "token": "את",
+    "offsets": {
+     "start": 5,
+     "end": 7
+    },
+    "lex": "את",
+    "morph": {
+     "token": "את",
+     "pos": "ADP",
+     "feats": {},
+     "prefixes": [],
+     "suffix": false
+    }
+   },
+   {
+    "token": "הדלת",
+    "offsets": {
+     "start": 8,
+     "end": 12
+    },
+    "lex": "דלת",
+    "morph": {
+     "token": "הדלת",
+     "pos": "NOUN",
+     "feats": {
+      "Gender": "Fem",
+      "Number": "Sing"
+     },
+     "prefixes": [
+      "DET"
+     ],
+     "suffix": false
+    }
+   },
+   {
+    "token": ",",
+    "offsets": {
+     "start": 12,
+     "end": 13
+    },
+    "lex": ",",
+    "morph": {
+     "token": ",",
+     "pos": "PUNCT",
+     "feats": {},
+     "prefixes": [],
+     "suffix": false
+    }
+   },
+   {
+    "token": "בבקשה",
+    "offsets": {
+     "start": 14,
+     "end": 19
+    },
+    "lex": "בבקשה",
+    "morph": {
+     "token": "בבקשה",
+     "pos": "INTJ",
+     "feats": {},
+     "prefixes": [],
+     "suffix": false
+    }
+   },
+   {
+    "token": "!",
+    "offsets": {
+     "start": 19,
+     "end": 20
+    },
+    "lex": "!",
+    "morph": {
+     "token": "!",
+     "pos": "PUNCT",
+     "feats": {},
+     "prefixes": [],
+     "suffix": false
+    }
+   }
+  ]
+ },
+ {
+  "text": "אנחנו נרקוד מחר בחוג היפ הופ.",
+  "tokens": [
+   {
+    "token": "אנחנו",
+    "offsets": {
+     "start": 0,
+     "end": 5
+    },
+    "lex": "אני",
+    "morph": {
+     "token": "אנחנו",
+     "pos": "PRON",
+     "feats": {
+      "Gender": "Masc",
+      "Number": "Plur",
+      "Person": "1"
+     },
+     "prefixes": [],
+     "suffix": false
+    }
+   },
+   {
+    "token": "נרקוד",
+    "offsets": {
+     "start": 6,
+     "end": 11
+    },
+    "lex": "נרק",
+    "morph": {
+     "token": "נרקוד",
+     "pos": "VERB",
+     "feats": {
+      "Gender": "Masc",
+      "Number": "Plur",
+      "Person": "1",
+      "Tense": "Fut"
+     },
+     "prefixes": [],
+     "suffix": false
+    }
+   },
+   {
+    "token": "מחר",
+    "offsets": {
+     "start": 12,
+     "end": 15
+    },
+    "lex": "מחר",
+    "morph": {
+     "token": "מחר",
+     "pos": "ADV",
+     "feats": {},
+     "prefixes": [],
+     "suffix": false
+    }
+   },
+   {
+    "token": "בחוג",
+    "offsets": {
+     "start": 16,
+     "end": 20
+    },
+    "lex": "חוג",
+    "morph": {
+     "token": "בחוג",
+     "pos": "NOUN",
+     "feats": {
+      "Gender": "Masc",
+      "Number": "Sing"
+     },
+     "prefixes": [
+      "ADP"
+     ],
+     "suffix": false
+    }
+   },
+   {
+    "token": "היפ",
+    "offsets": {
+     "start": 21,
+     "end": 24
+    },
+    "lex": "היפ",
+    "morph": {
+     "token": "היפ",
+     "pos": "X",
+     "feats": {},
+     "prefixes": [],
+     "suffix": false
+    }
+   },
+   {
+    "token": "הופ",
+    "offsets": {
+     "start": 25,
+     "end": 28
+    },
+    "lex": "הופ",
+    "morph": {
+     "token": "הופ",
+     "pos": "X",
+     "feats": {},
+     "prefixes": [],
+     "suffix": false
+    }
+   },
+   {
+    "token": ".",
+    "offsets": {
+     "start": 28,
+     "end": 29
+    },
+    "lex": ".",
+    "morph": {
+     "token": ".",
+     "pos": "PUNCT",
+     "feats": {},
+     "prefixes": [],
+     "suffix": false
+    }
+   }
+  ]
+ },
+ {
+  "text": "כשהגעתי הביתה ראיתי שהחתול אכל את האוכל",
+  "tokens": [
+   {
+    "token": "כשהגעתי",
+    "offsets": {
+     "start": 0,
+     "end": 7
+    },
+    "lex": "הגיע",
+    "morph": {
+     "token": "כשהגעתי",
+     "pos": "VERB",
+     "feats": {
+      "Gender": "Fem,Masc",
+      "Number": "Sing",
+      "Person": "1",
+      "Tense": "Past"
+     },
+     "prefixes": [
+      "SCONJ"
+     ],
+     "suffix": false
+    }
+   },
+   {
+    "token": "הביתה",
+    "offsets": {
+     "start": 8,
+     "end": 13
+    },
+    "lex": "בית",
+    "morph": {
+     "token": "הביתה",
+     "pos": "ADV",
+     "feats": {},
+     "prefixes": [],
+     "suffix": false
+    }
+   },
+   {
+    "token": "ראיתי",
+    "offsets": {
+     "start": 14,
+     "end": 19
+    },
+    "lex": "הראה",
+    "morph": {
+     "token": "ראיתי",
+     "pos": "VERB",
+     "feats": {
+      "Gender": "Masc",
+      "Number": "Sing",
+      "Person": "1",
+      "Tense": "Past"
+     },
+     "prefixes": [],
+     "suffix": false
+    }
+   },
+   {
+    "token": "שהחתול",
+    "offsets": {
+     "start": 20,
+     "end": 26
+    },
+    "lex": "חתול",
+    "morph": {
+     "token": "שהחתול",
+     "pos": "NOUN",
+     "feats": {
+      "Gender": "Masc",
+      "Number": "Sing"
+     },
+     "prefixes": [
+      "SCONJ",
+      "DET"
+     ],
+     "suffix": false
+    }
+   },
+   {
+    "token": "אכל",
+    "offsets": {
+     "start": 27,
+     "end": 30
+    },
+    "lex": "אכל",
+    "morph": {
+     "token": "אכל",
+     "pos": "VERB",
+     "feats": {
+      "Gender": "Masc",
+      "Number": "Sing",
+      "Person": "3",
+      "Tense": "Past"
+     },
+     "prefixes": [],
+     "suffix": false
+    }
+   },
+   {
+    "token": "את",
+    "offsets": {
+     "start": 31,
+     "end": 33
+    },
+    "lex": "את",
+    "morph": {
+     "token": "את",
+     "pos": "ADP",
+     "feats": {},
+     "prefixes": [],
+     "suffix": false
+    }
+   },
+   {
+    "token": "האוכל",
+    "offsets": {
+     "start": 34,
+     "end": 39
+    },
+    "lex": "אוכל",
+    "morph": {
+     "token": "האוכל",
+     "pos": "NOUN",
+     "feats": {
+      "Gender": "Masc",
+      "Number": "Sing"
+     },
+     "prefixes": [
+      "DET"
+     ],
+     "suffix": false
+    }
+   }
+  ]
+ },
+ {
+  "text": "ה\"ביץ של המורה",
+  "tokens": [
+   {
+    "token": "ה",
+    "offsets": {
+     "start": 0,
+     "end": 1
+    },
+    "lex": "ה",
+    "morph": {
+     "token": "ה",
+     "pos": "DET",
+     "feats": {},
+     "prefixes": [],
+     "suffix": false
+    }
+   },
+   {
+    "token": "\"",
+    "offsets": {
+     "start": 1,
+     "end": 2
+    },
+    "lex": "\"",
+    "morph": {
+     "token": "\"",
+     "pos": "PUNCT",
+     "feats": {},
+     "prefixes": [],
+     "suffix": false
+    }
+   },
+   {
+    "token": "ביץ",
+    "offsets": {
+     "start": 2,
+     "end": 5
+    },
+    "lex": "ביץ",
+    "morph": {
+     "token": "ביץ",
+     "pos": "PROPN",
+     "feats": {},
+     "prefixes": [],
+     "suffix": false
+    }
+   },
+   {
+    "token": "של",
+    "offsets": {
+     "start": 6,
+     "end": 8
+    },
+    "lex": "של",
+    "morph": {
+     "token": "של",
+     "pos": "ADP",
+     "feats": {},
+     "prefixes": [],
+     "suffix": false
+    }
+   },
+   {
+    "token": "המורה",
+    "offsets": {
+     "start": 9,
+     "end": 14
+    },
+    "lex": "מורה",
+    "morph": {
+     "token": "המורה",
+     "pos": "NOUN",
+     "feats": {
+      "Gender": "Masc",
+      "Number": "Sing"
+     },
+     "prefixes": [
+      "DET"
+     ],
+     "suffix": false
+    }
+   }
+  ]
+ },
+ {
+  "text": "מה שלומך? 100% טוב!",
+  "tokens": [
+   {
+    "token": "מה",
+    "offsets": {
+     "start": 0,
+     "end": 2
+    },
+    "lex": "מה",
+    "morph": {
+     "token": "מה",
+     "pos": "PRON",
+     "feats": {},
+     "prefixes": [],
+     "suffix": false
+    }
+   },
+   {
+    "token": "שלומך",
+    "offsets": {
+     "start": 3,
+     "end": 8
+    },
+    "lex": "שלום",
+    "morph": {
+     "token": "שלומך",
+     "pos": "NOUN",
+     "feats": {
+      "Gender": "Masc",
+      "Number": "Sing"
+     },
+     "prefixes": [],
+     "suffix": "PRON",
+     "suffix_feats": {
+      "Gender": "Fem",
+      "Number": "Sing",
+      "Person": "2"
+     }
+    }
+   },
+   {
+    "token": "?",
+    "offsets": {
+     "start": 8,
+     "end": 9
+    },
+    "lex": "?",
+    "morph": {
+     "token": "?",
+     "pos": "PUNCT",
+     "feats": {},
+     "prefixes": [],
+     "suffix": false
+    }
+   },
+   {
+    "token": "100",
+    "offsets": {
+     "start": 10,
+     "end": 13
+    },
+    "lex": "100",
+    "morph": {
+     "token": "100",
+     "pos": "NUM",
+     "feats": {},
+     "prefixes": [],
+     "suffix": false
+    }
+   },
+   {
+    "token": "%",
+    "offsets": {
+     "start": 13,
+     "end": 14
+    },
+    "lex": "%",
+    "morph": {
+     "token": "%",
+     "pos": "SYM",
+     "feats": {
+      "Gender": "Masc",
+      "Number": "Plur,Sing"
+     },
+     "prefixes": [],
+     "suffix": false
+    }
+   },
+   {
+    "token": "טוב",
+    "offsets": {
+     "start": 15,
+     "end": 18
+    },
+    "lex": "טוב",
+    "morph": {
+     "token": "טוב",
+     "pos": "ADJ",
+     "feats": {},
+     "prefixes": [],
+     "suffix": false
+    }
+   },
+   {
+    "token": "!",
+    "offsets": {
+     "start": 18,
+     "end": 19
+    },
+    "lex": "!",
+    "morph": {
+     "token": "!",
+     "pos": "PUNCT",
+     "feats": {},
+     "prefixes": [],
+     "suffix": false
+    }
+   }
+  ]
+ }
+]
