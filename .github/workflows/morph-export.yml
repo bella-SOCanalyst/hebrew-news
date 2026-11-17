@@ -22,7 +22,7 @@ jobs:
       - name: Install
         run: |
           pip install --index-url https://download.pytorch.org/whl/cpu torch
-          pip install "transformers>=4.44,<5" onnx onnxruntime onnxscript numpy
+          pip install "transformers>=4.44,<5" onnx onnxruntime onnxscript numpy regex
 
       - name: Export
         run: python tools/morph_export.py
