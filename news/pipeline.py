@@ -247,12 +247,22 @@ def pick_models(api_key: str) -> list[str]:
         # сначала стабильные, затем новее; «lite» — только как запасная
         return ("preview" not in n, "lite" not in n, float(nums[0]) if nums else 0.0, n)
 
-    _model_cache.extend(sorted(names, key=rank, reverse=True)[:4])
+    # Все подходящие модели: у самых новых бесплатная дневная квота маленькая — тогда идём к следующим.
+    _model_cache.extend(sorted(names, key=rank, reverse=True)[:8])
     print("Модели Gemini (по порядку): " + ", ".join(_model_cache), flush=True)
     return _model_cache
 
 
 RETRYABLE = ("HTTP 429", "HTTP 500", "HTTP 503", "HTTP 504", "timed out", "Connection reset", "Remote end closed")
+
+# Модели, у которых на сегодня кончилась квота: в этом запуске больше не пробуем (и не ждём впустую).
+_exhausted: set[str] = set()
+
+
+def quota_exhausted(msg: str) -> bool:
+    """429 из-за квоты (дневной лимит бесплатного уровня), а не кратковременной перегрузки."""
+    m = msg.lower()
+    return "429" in m and ("quota" in m or "resource_exhausted" in m or "квот" in m)
 
 
 def gemini(api_key: str, prompt: str, schema: dict) -> dict:
@@ -267,6 +277,8 @@ def gemini(api_key: str, prompt: str, schema: dict) -> dict:
     }
     last: Exception | None = None
     for model in pick_models(api_key):
+        if model in _exhausted:
+            continue
         url = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent?key={api_key}"
         for attempt in range(3):
             try:
@@ -276,6 +288,11 @@ def gemini(api_key: str, prompt: str, schema: dict) -> dict:
             except Exception as e:  # noqa: BLE001
                 last = e
                 msg = str(e)
+                if quota_exhausted(msg):
+                    # Квота модели на сегодня кончилась — ждать бесполезно, сразу следующая модель.
+                    _exhausted.add(model)
+                    print(f"  {model}: квота на сегодня исчерпана — беру следующую модель", flush=True)
+                    break
                 if not any(r in msg for r in RETRYABLE):
                     break  # ошибка не временная — сразу следующая модель
                 wait = 20 * (attempt + 1)

@@ -1,4 +1,5 @@
 import datetime as dt
+import json
 import unittest
 
 import pipeline as p
@@ -16,6 +17,31 @@ class LevelsTest(unittest.TestCase):
         for key, _, _ in p.CATEGORIES:
             seen = {p.levels_for(start + dt.timedelta(days=d))[key] for d in range(3)}
             self.assertEqual(seen, {1, 2, 3})
+
+
+class QuotaTest(unittest.TestCase):
+    def test_quota_switches_model_without_waiting(self):
+        calls = []
+
+        def fake_http(url, body=None, timeout=60, headers=None):
+            calls.append(url)
+            if "big-flash" in url:
+                raise RuntimeError('HTTP 429 ... { "error": { "code": 429, "message": "You exceeded your current quota", "status": "RESOURCE_EXHAUSTED" } }')
+            return json.dumps({"candidates": [{"content": {"parts": [{"text": '{"ok": 1}'}]}}]}).encode()
+
+        old_http, old_cache, old_sleep = p.http, list(p._model_cache), p.time.sleep
+        p.http = fake_http
+        p._model_cache[:] = ["big-flash", "small-flash"]
+        p._exhausted.clear()
+        p.time.sleep = lambda s: self.fail("не должно быть ожидания при исчерпанной квоте")
+        try:
+            self.assertEqual(p.gemini("k", "x", {}), {"ok": 1})
+            self.assertEqual(p.gemini("k", "y", {}), {"ok": 1})
+            self.assertEqual(sum("big-flash" in c for c in calls), 1)  # второй раз исчерпанную модель не трогаем
+        finally:
+            p.http, p.time.sleep = old_http, old_sleep
+            p._model_cache[:] = old_cache
+            p._exhausted.clear()
 
 
 class LengthTest(unittest.TestCase):
