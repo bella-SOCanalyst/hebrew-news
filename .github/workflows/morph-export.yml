@@ -1,0 +1,39 @@
+# Разбор слов на телефоне: экспорт модели Dicta (dictabert-tiny-joint, CC BY 4.0) в ONNX.
+# Запуск вручную: Actions → Morph export → Run workflow. Результат — папка models/morph в репозитории.
+name: Morph export
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install
+        run: |
+          pip install --index-url https://download.pytorch.org/whl/cpu torch
+          pip install "transformers>=4.44,<5" onnx onnxruntime onnxscript numpy
+
+      - name: Export
+        run: python tools/morph_export.py
+
+      - name: Publish
+        if: always()
+        run: |
+          git config user.name "news-bot"
+          git config user.email "news-bot@users.noreply.github.com"
+          git add -A models || true
+          if git diff --cached --quiet; then echo "Нет изменений"; exit 0; fi
+          git commit -m "Модель разбора слов (Dicta tiny-joint, ONNX)"
+          git pull --rebase
+          git push
